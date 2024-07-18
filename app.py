@@ -19,6 +19,9 @@ rc('font', family='NanumGothic')
 url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv'
 df = pd.read_csv(url)
 
+# mySUNI ID 열을 제거
+df = df.drop(columns=['mySUNI ID'], errors='ignore')
+
 # 최상단 메시지 노출
 st.markdown(f"""
     <style>
