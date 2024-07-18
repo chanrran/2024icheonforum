@@ -13,6 +13,8 @@ def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv")
     # NaN 값을 가진 행 제거
     df = df.dropna()
+    # '사전평가' 컬럼명을 '난이도'로 변경
+    df = df.rename(columns={'사전평가': '난이도'})
     return df
 
 df = load_data()
@@ -24,7 +26,7 @@ st.sidebar.header("데이터 필터")
 # 사이드바 필터
 selected_company = st.sidebar.multiselect("회사 선택", df['회사'].unique())
 selected_topic = st.sidebar.multiselect("주제 선택", df['주제'].unique())
-selected_eval = st.sidebar.selectbox("사전평가 수준 선택", ['전체'] + list(df['사전평가'].unique()))
+selected_difficulty = st.sidebar.selectbox("난이도 선택", ['전체'] + list(df['난이도'].unique()))
 
 # 데이터 필터링
 filtered_df = df
@@ -32,8 +34,8 @@ if selected_company:
     filtered_df = filtered_df[filtered_df['회사'].isin(selected_company)]
 if selected_topic:
     filtered_df = filtered_df[filtered_df['주제'].isin(selected_topic)]
-if selected_eval != '전체':
-    filtered_df = filtered_df[filtered_df['사전평가'] == selected_eval]
+if selected_difficulty != '전체':
+    filtered_df = filtered_df[filtered_df['난이도'] == selected_difficulty]
 
 # 메인 페이지
 st.title("생성형 AI사례 공모전 결과 분석")
@@ -48,7 +50,7 @@ with tab1:
     col1.metric("전체 프로젝트 수", len(filtered_df))
     col2.metric("참여 회사 수", filtered_df['회사'].nunique())
     col3.metric("주제 수", filtered_df['주제'].nunique())
-    col4.metric("평균 사전평가 수준", filtered_df['사전평가'].mean().round(2))
+    col4.metric("평균 난이도", filtered_df['난이도'].mean().round(2))
 
 with tab2:
     st.header("주제별 분석")
@@ -85,7 +87,7 @@ project_info = filtered_df[filtered_df['주제'] == selected_project].iloc[0]
 st.write(f"성명: {project_info['성명']}")
 st.write(f"회사: {project_info['회사']}")
 st.write(f"주제: {project_info['주제']}")
-st.write(f"사전평가: {project_info['사전평가']}")
+st.write(f"난이도: {project_info['난이도']}")
 if pd.notna(project_info['Playground']) and project_info['Playground'] != '':
     st.markdown(f"[Playground 링크]({project_info['Playground']})")
 
