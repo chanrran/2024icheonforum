@@ -25,8 +25,9 @@ st.title('프로젝트 대시보드')
 
 # 그래프 생성 함수
 def create_bar_chart(counts, title, xlabel, ylabel):
+    counts = counts.sort_values(ascending=False)  # 내림차순 정렬
     fig, ax = plt.subplots()
-    counts.sort_values(ascending=False).plot(kind='barh', ax=ax)
+    counts.plot(kind='barh', ax=ax)
     ax.set_title(title)
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
