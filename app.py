@@ -11,8 +11,8 @@ def load_data():
     url = "https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv"
     df = pd.read_csv(url)
     df = df.rename(columns={'사전평가': '난이도'})
-    # NaN 값 제거
-    df = df.dropna()
+    # 필요한 열에 대해서만 NaN 값 처리
+    df = df.dropna(subset=['회사', '주제', '난이도'])
     return df
 
 # 메인 페이지
