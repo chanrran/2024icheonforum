@@ -20,38 +20,38 @@ url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_
 df = pd.read_csv(url)
 
 # 최상단 메시지 노출
-st.markdown("""
+st.markdown(f"""
     <style>
-        .main-title {
+        .main-title {{
             font-size: 2rem;
             font-weight: bold;
             color: #f39c12;
             text-align: center;
-        }
-        .data-summary {
+        }}
+        .data-summary {{
             font-size: 1.2rem;
             color: #ffffff;
             text-align: center;
             margin-bottom: 20px;
-        }
-        .options-box {
+        }}
+        .options-box {{
             background-color: #34495e;
             padding: 20px;
             border-radius: 10px;
-        }
-        .button-container {
+        }}
+        .button-container {{
             display: flex;
             justify-content: space-around;
-        }
-        .stButton>button {
+        }}
+        .stButton>button {{
             background-color: #3498db;
             color: white;
             font-size: 1rem;
             margin: 5px;
-        }
-        .stButton>button:hover {
+        }}
+        .stButton>button:hover {{
             background-color: #2980b9;
-        }
+        }}
     </style>
     <div class="main-title">
         이 서비스는 생성형 AI 공모전의 사례제출 현황을 분석하고 인사이트를 제공하기 위해 제작되었습니다.
