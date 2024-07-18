@@ -4,6 +4,12 @@ from collections import Counter
 import re
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+from matplotlib import font_manager, rc
+
+# 한글 폰트 설정
+font_path = '/usr/share/fonts/truetype/nanum/NanumGothic.ttf'  # 나눔고딕 폰트 경로
+font = font_manager.FontProperties(fname=font_path).get_name()
+rc('font', family=font)
 
 # 파일 업로드
 uploaded = st.file_uploader("파일을 업로드하세요", type=["csv"])
@@ -15,8 +21,8 @@ if uploaded is not None:
     # 데이터 요약
     st.write(f"총 {df.shape[0]}건의 데이터가 확인되었습니다.")
 
-    # 표/그래프 선택 콤보박스
-    display_option = st.selectbox("표/그래프 선택", ["표", "그래프"])
+    # 표/그래프 선택 라디오 버튼
+    display_option = st.radio("표/그래프 선택", ["표", "그래프"])
 
     # 회사별 건수
     if st.button("회사별 건수"):
@@ -25,10 +31,11 @@ if uploaded is not None:
             st.write(company_counts)
         elif display_option == "그래프":
             fig, ax = plt.subplots()
+            company_counts = company_counts.sort_values()
             ax.barh(company_counts.index, company_counts.values)
             ax.set_xlabel('건수')
-            ax.set_ylabel('회사')
-            ax.set_title('회사별 건수')
+            ax.set_ylabel('Company')
+            ax.set_title('Company별 건수')
             for i in ax.patches:
                 ax.text(i.get_width() + .3, i.get_y() + .31, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
             st.pyplot(fig)
@@ -40,6 +47,7 @@ if uploaded is not None:
             st.write(category_counts)
         elif display_option == "그래프":
             fig, ax = plt.subplots()
+            category_counts = category_counts.sort_values()
             ax.barh(category_counts.index, category_counts.values)
             ax.set_xlabel('건수')
             ax.set_ylabel('카테고리')
@@ -55,6 +63,7 @@ if uploaded is not None:
             st.write(level_counts)
         elif display_option == "그래프":
             fig, ax = plt.subplots()
+            level_counts = level_counts.sort_values()
             ax.bar(level_counts.index, level_counts.values)
             ax.set_xlabel('수준')
             ax.set_ylabel('건수')
@@ -72,7 +81,7 @@ if uploaded is not None:
     # Wordcloud 만들기
     if st.button("Wordcloud 만들기"):
         text = ' '.join(df['Title'].dropna().astype(str))
-        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+        wordcloud = WordCloud(width=800, height=400, background_color='white', font_path=font_path).generate(text)
         fig, ax = plt.subplots()
         ax.imshow(wordcloud, interpolation='bilinear')
         ax.axis('off')
