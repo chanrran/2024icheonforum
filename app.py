@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from matplotlib import font_manager, rc
 
-# 기본 한글 폰트 설정
-font_path = '/usr/share/fonts/truetype/nanum/NanumGothic.ttf'
+# 업로드된 폰트 파일 경로 설정
+font_path = '/mnt/data/NanumGothic-Regular.ttf'
 font_manager.fontManager.addfont(font_path)
-plt.rc('font', family='NanumGothic')
+rc('font', family='NanumGothic')
 
 # GitHub에서 CSV 파일 읽기
 url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv'
