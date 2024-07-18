@@ -26,6 +26,12 @@ df = df.drop(columns=['mySUNI ID'], errors='ignore')
 st.markdown(f"""
     <style>
         .main-title {{
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+        }}
+        .sub-title {{
             font-size: 2rem;
             font-weight: bold;
             color: #f39c12;
@@ -41,7 +47,7 @@ st.markdown(f"""
             background-color: #34495e;
             padding: 20px;
             border-radius: 10px;
-            margin-top: -20px; /* 옵션 위의 비어있는 도형 제거 */
+            margin-top: 0px; /* 옵션 위의 비어있는 도형 제거 */
         }}
         .button-container {{
             display: flex;
@@ -58,6 +64,9 @@ st.markdown(f"""
         }}
     </style>
     <div class="main-title">
+        생성형 AI 공모전 사례 분석 서비스
+    </div>
+    <div class="sub-title">
         이 서비스는 생성형 AI 공모전의 사례제출 현황을 분석하고 인사이트를 제공하기 위해 제작되었습니다.
     </div>
     <div class="data-summary">
@@ -151,4 +160,4 @@ if search_keyword:
         df.apply(lambda row: row.astype(str).str.contains(search_keyword, case=False).any(), axis=1)
     ]
     st.write(f"총 {filtered_df.shape[0]}건의 사례가 검색되었습니다.")
-    st.dataframe(filtered_df)
+    st.dataframe(filtered_df[['Company', 'Title', 'Category', 'Level']])
