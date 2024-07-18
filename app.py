@@ -4,12 +4,14 @@ from collections import Counter
 import re
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from matplotlib import font_manager, rc
+from matplotlib import rcParams
 
 # 업로드된 폰트 파일 경로 설정
 font_path = '/mnt/data/NanumGothic-Regular.ttf'
-font_manager.fontManager.addfont(font_path)
-rc('font', family='NanumGothic')
+
+# 한글 폰트 설정
+rcParams['font.family'] = 'NanumGothic'
+rcParams['font.sans-serif'] = ['NanumGothic']
 
 # GitHub에서 CSV 파일 읽기
 url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv'
