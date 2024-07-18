@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # 데이터 로드
 data_path = 'Caselist_240718.csv'
@@ -22,20 +23,31 @@ if level != '전체':
 # 메인 화면
 st.title('프로젝트 대시보드')
 
+# 그래프 생성 함수
+def create_bar_chart(counts, title, xlabel, ylabel):
+    fig, ax = plt.subplots()
+    counts.sort_values(ascending=False).plot(kind='barh', ax=ax)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    for i in ax.containers:
+        ax.bar_label(i, label_type='edge')
+    st.pyplot(fig)
+
 # 회사별 프로젝트 수
 st.header('회사별 프로젝트 수')
 company_counts = filtered_data['회사'].value_counts()
-st.bar_chart(company_counts)
+create_bar_chart(company_counts, '회사별 프로젝트 수', '프로젝트 수', '회사')
 
 # 주제별 프로젝트 수
 st.header('주제별 프로젝트 수')
 topic_counts = filtered_data['주제'].value_counts()
-st.bar_chart(topic_counts)
+create_bar_chart(topic_counts, '주제별 프로젝트 수', '프로젝트 수', '주제')
 
 # 난이도별 프로젝트 수
 st.header('난이도별 프로젝트 수')
 level_counts = filtered_data['난이도'].value_counts()
-st.bar_chart(level_counts)
+create_bar_chart(level_counts, '난이도별 프로젝트 수', '프로젝트 수', '난이도')
 
 # 필터된 프로젝트 목록
 st.header('프로젝트 목록')
