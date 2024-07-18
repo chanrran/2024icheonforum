@@ -20,32 +20,68 @@ url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_
 df = pd.read_csv(url)
 
 # 최상단 메시지 노출
-st.write("""
-    ## 이 서비스는 생성형 AI 공모전의 사례제출 현황을 분석하고 인사이트를 제공하기 위해 제작되었습니다.
-""")
-
-# 데이터 요약
-st.write(f"데이터를 통해 총 {df.shape[0]}건의 사례가 확인되었습니다.")
+st.markdown("""
+    <style>
+        .main-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f39c12;
+            text-align: center;
+        }
+        .data-summary {
+            font-size: 1.2rem;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .options-box {
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .stButton>button {
+            background-color: #3498db;
+            color: white;
+            font-size: 1rem;
+            margin: 5px;
+        }
+        .stButton>button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <div class="main-title">
+        이 서비스는 생성형 AI 공모전의 사례제출 현황을 분석하고 인사이트를 제공하기 위해 제작되었습니다.
+    </div>
+    <div class="data-summary">
+        데이터를 통해 총 {df.shape[0]}건의 사례가 확인되었습니다.
+    </div>
+""", unsafe_allow_html=True)
 
 # 옵션 선택 라디오 버튼 (오른쪽)
 col1, col2 = st.columns([3, 1])
 with col2:
+    st.markdown('<div class="options-box">', unsafe_allow_html=True)
     st.subheader("옵션")
     display_option = st.radio("표/그래프 선택", ["표", "그래프"], key='display_option')
+    st.markdown('</div>', unsafe_allow_html=True)
 
 # 데이터 분석 버튼들 (왼쪽)
 with col1:
     st.subheader("데이터 분석")
-    btn1, btn2, btn3 = st.columns(3)
-
-    if btn1.button("회사별 건수"):
+    st.markdown('<div class="button-container">', unsafe_allow_html=True)
+    if st.button("회사별 건수"):
         st.session_state.selected_button = "company"
 
-    if btn2.button("카테고리별 건수"):
+    if st.button("카테고리별 건수"):
         st.session_state.selected_button = "category"
 
-    if btn3.button("수준별 건수"):
+    if st.button("수준별 건수"):
         st.session_state.selected_button = "level"
+    st.markdown('</div>', unsafe_allow_html=True)
 
     selected_button = st.session_state.get('selected_button', None)
 
