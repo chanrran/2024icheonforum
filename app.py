@@ -10,14 +10,11 @@ if uploaded is not None:
     # CSV 파일 로드
     df = pd.read_csv(uploaded)
 
-    # 카테고리별 건수
-    category_counts = df['카테고리'].value_counts()
+    # 회사별 건수
+    company_counts = df['회사'].value_counts()
 
     # 수준별 건수
     level_counts = df['수준'].value_counts()
-
-    # 회사별 건수
-    company_counts = df['회사'].value_counts()
 
     # 키워드 추출 함수
     def extract_keywords(text):
@@ -34,14 +31,11 @@ if uploaded is not None:
     # Streamlit 대시보드
     st.title('데이터 분석 대시보드')
 
-    st.subheader('카테고리별 건수')
-    st.bar_chart(category_counts)
+    st.subheader('회사별 건수')
+    st.bar_chart(company_counts)
 
     st.subheader('수준별 건수')
     st.bar_chart(level_counts)
 
-    st.subheader('회사별 건수')
-    st.bar_chart(company_counts)
-
     st.subheader('주제별 키워드 분석')
-    st.writ
+    st.write(pd.DataFrame(top_keywords, columns=['키워드', '빈도수']))
