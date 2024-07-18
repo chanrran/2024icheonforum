@@ -1,976 +1,245 @@
-﻿성명,회사,Title,주제,사전평가,Playground,Nickname,,,,,,,,,,,,,,,,,,
-이동권,SK하이닉스,생성형 AI를 활용한 defect 분류 시스템 개발,데이터분석,고급,https://playground.mysuni.com/hub/detail/f271b5ae7874464981033114868a5edf,반포,,,,,,,,,,,,,,,,,,
-전수빈,SK에너지,엑셀 데이터 분석 챗봇 제작,개발,고급,https://playground.mysuni.com/hub/detail/742b7cb893d04afb96a11ef1039d982e,SP팀 화이팅~,,,,,,,,,,,,,,,,,,
-이진현,SK하이닉스,미래 언어를 정의하는 차세대 표준 용어 추천 모델 개발,콘텐츠,고급,https://playground.mysuni.com/hub/detail/fbb86f6081a14267b2a0835eb5be1a5b,초록매실,,,,,,,,,,,,,,,,,,
-김동훈,SK텔레콤,This Is Me(사진1장과 30초 음성으로 AI Agent생성),챗봇/RAG,고급,https://playground.mysuni.com/hub/detail/f81f258aeb5b49a3a5c7cf69e125f78e,에드거,,,,,,,,,,,,,,,,,,
-이건백,SK하이닉스,P&M기술 전용 Private LLM : Pandora AI,챗봇/RAG,고급,https://playground.mysuni.com/hub/detail/299dce97b5b14a2c83cbbc3c8a0ac11d,광동돼지감자,,,,,,,,,,,,,,,,,,
-송의석,SK텔레콤,프로젝트 관리와 코딩을 같이 해주는 CodeMate,챗봇/RAG,고급,https://playground.mysuni.com/hub/detail/646078943cd0496082b4d8f9a42e54e5,열정적인고구마피자,,,,,,,,,,,,,,,,,,
-김국중,SK 에코플랜트,"건물계약, 운영관리 마스터",챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/6c587f53cd9b45eba3238cf6e834bfc9,새싹강남299,,,,,,,,,,,,,,,,,,
-이준구,SK텔레콤,AI기반 IX Biz 리포트 자동발행,자동화,고급,https://playground.mysuni.com/hub/detail/111a977411fe42fc8e5db2e37fa5280c,오누빠,,,,,,,,,,,,,,,,,,
-이준구,SK텔레콤,AI기반 IX Biz 리포트 자동발행,자동화,고급,https://playground.mysuni.com/hub/detail/111a977411fe42fc8e5db2e37fa5280c,오누빠,,,,,,,,,,,,,,,,,,
-여동기,SK텔레콤,OpenLLM 로컬 모델로 학습한 뉴스를 요약해 주는 챗봇,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/2b108025189b46a58704f632c657bf44,깜짝소리999,,,,,,,,,,,,,,,,,,
-임은영,SK하이닉스,AI 기반 제조 UI 개발을 통해 Smart Factory 고도화 추진,자동화,중급,,best,,,,,,,,,,,,,,,,,,
-문지영,SK이노베이션,"Exergenius: Exergy Analysis, 누구나 단 몇 초만에",데이터분석,중급,https://playground.mysuni.com/hub/detail/5dcaf7b62b6349dba6d07b4a8243b6ed,행복한쿼카,,,,,,,,,,,,,,,,,,
-최문혁,SK하이닉스,GPT 활용한 SoC Power Data 예측,데이터분석,중급,https://playground.mysuni.com/hub/detail/3aa24a1c7bbc49eb909c29a143a0a963,나솨솨솨,,,,,,,,,,,,,,,,,,
-김대성,SK하이닉스,이제 논문도 썸네일에 낚여보자: Arxiv + Youtube,개발,중급,https://playground.mysuni.com/hub/detail/681d42dad7754fe7acf140231e9bc7ad,그레이트드라슈렛,,,,,,,,,,,,,,,,,,
-고경준,SK텔레콤,"AI를 활용한 업무 자동화(대량메일발송, 지식검색챗봇)",자동화,중급,https://playground.mysuni.com/hub/detail/225bff5733d74ee292178990a4cdfc68,cooldown12,,,,,,,,,,,,,,,,,,
-최현우,SK텔레콤,[업무 자동화] Chat GPT로 장비 통계 DashBoard 개발하기,개발,중급,https://playground.mysuni.com/hub/detail/46d7830cba394030816446ca9c67fad5,맑은벚꽃,,,,,,,,,,,,,,,,,,
-김임교,SK텔링크,GPT로 골프라운딩 기록 분석해보기,일상,중급,https://playground.mysuni.com/hub/detail/afe5d3d93eff4649a84f99a4823f0802,아이언매니아,,,,,,,,,,,,,,,,,,
-김정현,SK텔레콤,코딩 한 줄 없이 프로야구 챗봇 만들기,일상,중급,https://playground.mysuni.com/hub/detail/6e9d3ba3e3a4466b853767c06ca79328,설탕무,,,,,,,,,,,,,,,,,,
-박창선,SK하이닉스,생성형AI Google Bard와 Telegram bot을 연계 타로점,일상,중급,https://playground.mysuni.com/hub/detail/88d8fd5a3b834a30873a4e1319f03919,창의적인나비1234,,,,,,,,,,,,,,,,,,
-여동기,SK텔레콤,"OpenLLM, RAG 1차 구현",챗봇/RAG,중급,,깜짝소리999,,,,,,,,,,,,,,,,,,
-이재홍,SK브로드밴드,공공데이터를 활용하여 중요지역 위해 요인 발굴 및 데이터베이스 시각화,일상,초급,https://playground.mysuni.com/hub/detail/380a4e6599db4d1abb465e87e228386f,후홍몽,,,,,,,,,,,,,,,,,,
-선유진,SK네트웍스,HRD: 업무 평가/보상 페이지 대시보드 개편(Netpro),자동화,중급,https://playground.mysuni.com/hub/detail/c1128122025a47c9ad96f5dbaec2b28d,행복처돌이,,,,,,,,,,,,,,,,,,
-현호준,SK브로드밴드,디지털 커뮤니케이션 全업무 영역에 AI 활용,콘텐츠,고급,https://playground.mysuni.com/hub/detail/1d5d3f1678be4b2f983c9db6dead4e64,랜선걸,,,,,,,,,,,,,,,,,,
-최호임,SK에코엔지니어링,ChatGPT를 활용한 CAPEX 산정,프롬프팅,초급,https://playground.mysuni.com/hub/detail/6935b20a7307428390b7f7c4b5c80440,bengsang,,,,,,,,,,,,,,,,,,
-최호임,SK에코엔지니어링,Compressor 구매비 산정,프롬프팅,초급,https://playground.mysuni.com/hub/detail/c9eaa0480d464f1395176660fc0e4ea2,bengsang,,,,,,,,,,,,,,,,,,
-이재홍,SK브로드밴드,개인 맞춤형 뉴스 크롤링 생성을 위한 제이미니 활용,일상,초급,https://playground.mysuni.com/hub/detail/b7ecfa1271f6475baf26050e729f572f,후홍몽,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,독서 패턴 분석과 도서 추천,일상,초급,https://playground.mysuni.com/hub/detail/36141127998b482985629366ba63c76a,David,,,,,,,,,,,,,,,,,,
-이대연,SK트레이딩인터내셔널,GPTs를 활용한 채용 과정 개선,자동화,중급,https://playground.mysuni.com/hub/detail/eaa8872d84b9491d85171e6b9a055347,가포리,,,,,,,,,,,,,,,,,,
-여동기,SK텔레콤,"OpenLLM, RAG 2차 챗봇 구현",챗봇/RAG,중급,,깜짝소리999,,,,,,,,,,,,,,,,,,
-조진선,SK하이닉스,Hygpt를 활용한 TCAD EPM Calculator 개발,개발,중급,https://playground.mysuni.com/hub/detail/125e01450536480d948b3f1891864e4e,cjs6904,,,,,,,,,,,,,,,,,,
-용지현,SK텔레콤,악플보다 무플이 더 무서워!,자동화,중급,https://playground.mysuni.com/hub/detail/588b3a1f1e4f4076a59b45d76e5769cd,메타용용,,,,,,,,,,,,,,,,,,
-김시하,SK텔링크,Private한 나만의 데이터 분석 프로그램,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/2787cfa5b98447f1a4f784c4db40fdc8,말랑한꽃745,,,,,,,,,,,,,,,,,,
-지홍근,SK텔레콤,국가연구과제 업무처리 방법 자동응답 Chatbot,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/bc9fdf14555b43c8b3e245655af4ae52,전자파는상쾌해,,,,,,,,,,,,,,,,,,
-이재형,SK텔링크,ChatGPT&Ollama 활용Outlook RAG Chatbot 구축,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/d30d3f2a833e42d88351e3476812dd51,보라매뚜벅쵸,,,,,,,,,,,,,,,,,,
-전창국,SK텔레콤,실용성 있는 내부 문서 검색 솔루션,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/ea36a41586984899b9d5b983360fa5a0,신속한코딩마스터1287,,,,,,,,,,,,,,,,,,
-김혜인,SK텔레콤,챗GPT로 ZEM 브랜드콘텐츠 제안서 작성하기,콘텐츠,중급,https://playground.mysuni.com/hub/detail/5b0ba396457c43ae85c04491a1c2cb43,heky,,,,,,,,,,,,,,,,,,
-박건태,SK바이오팜,AI 활용 오픈소스 코드 실행(ubiquitination site 예측),자동화,중급,https://playground.mysuni.com/hub/detail/290bed0ad52e4219891472a2f988be25,coldtype08,,,,,,,,,,,,,,,,,,
-강준형,SK주식회사 C&C,ChatGPT를 이용한 자녀와 실시간 동화 만들기,일상,초급,https://playground.mysuni.com/hub/detail/407af827abff491a97ac80f94cb6d220,소리지르는비버,,,,,,,,,,,,,,,,,,
-원유진,SK텔레콤,업체 개요 조사 챗봇 구현,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/b0c073fef2934e68bf8521b35652dbae,활발한코딩마스터0427,,,,,,,,,,,,,,,,,,
-방성주,SK텔레콤,PASS 고객센터 챗봇 만들기,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/6aa1514f889b47a48de5ede39d8f16c4,활발한코딩천재3017,,,,,,,,,,,,,,,,,,
-김선문,SK 에코플랜트,내가 원하는 저널에서 '관심뉴스' 만 골라서 엑셀로 정리하는 방법,자동화,중급,https://playground.mysuni.com/hub/detail/931518006a264a18a7decb1522841b02,사울85김안,,,,,,,,,,,,,,,,,,
-양해준,SK텔레콤,Learning Science와 AI를 결합하여 교육 프로그램 개발 사례,콘텐츠,중급,https://playground.mysuni.com/hub/detail/f2fc990cb0e54b268862de508894487b,Truebeliev,,,,,,,,,,,,,,,,,,
-김보경,SK에코엔지니어링,RPA를 통한 수입신고 증빙 분류 및 입력 자동화,자동화,중급,https://playground.mysuni.com/hub/detail/2c426c066ac04754953214674f1065a6,BKKIM89,,,,,,,,,,,,,,,,,,
-박세용,SK텔레콤,부동산 자산 면적 검증 (ChatGPT와 파이썬 활용 건축물 대장 발급),자동화,중급,https://playground.mysuni.com/hub/detail/b1be4006b7584fa5b647427fb79778e9,활기찬데이터1098,,,,,,,,,,,,,,,,,,
-안태준,SK주식회사 C&C,AWS 자격증 시험대비 문제풀이 사이트,콘텐츠,중급,https://playground.mysuni.com/hub/detail/3d8c774e857a45bd9b1ba6703c7d465c,Azssi,,,,,,,,,,,,,,,,,,
-김병도,SK하이닉스,자사 DEEPSEEK MODEL에 RAG 적용하기!!,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/93bb428c9bf245858775ba4b1326745a,적극적인해파리9283,,,,,,,,,,,,,,,,,,
-이재홍,SK브로드밴드,5분만에 작성하는 사업계획서 초안,프롬프팅,초급,https://playground.mysuni.com/hub/detail/2c8898c93d5d404bbbd619f4700e9b63,후홍몽,,,,,,,,,,,,,,,,,,
-최호임,SK에코엔지니어링,ChatGPT에게 영작 시키기,일상,초급,https://playground.mysuni.com/hub/detail/361ced6c25774ad6aa4d34ae9a31484f,bengsang,,,,,,,,,,,,,,,,,,
-윤나은,SK텔레콤,ChatGPT로 여행 계획 세우며 업무 스트레스 해소하기!,일상,초급,https://playground.mysuni.com/hub/detail/098fe2ae1dfd48b980b5d21f50b00922,활동적인해커9247,,,,,,,,,,,,,,,,,,
-정혜인,SK텔레콤,무엇이든 물어보세요 A to Z,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/d951b733b47a454788b072a0ca065768,코딩찐따,,,,,,,,,,,,,,,,,,
-양정균,SK트레이딩인터내셔널,Excel의 ETL Tool인 Power Query의 효율적 관리 방안,자동화,중급,https://playground.mysuni.com/hub/detail/cae3ac20d8d941359900241006758540,활동적인밤하늘5732,,,,,,,,,,,,,,,,,,
-한경흠,SK브로드밴드,"OpenSource를 구축, 배우며 만들어 보는 회의록 요약 서비스",챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/d3d9c67ee7ec4cde99a0e7351ea61767,좋아좋아,,,,,,,,,,,,,,,,,,
-신용식,SK텔레콤,Private 5G network Chatbot,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/4a51b9645bd94474806b49e1f6ce63c6,sysone011,,,,,,,,,,,,,,,,,,
-조재영,SK온,특허 데이터 분석,데이터분석,중급,https://playground.mysuni.com/hub/detail/02d9951d885a4833b8378db02e597577,상큼한딸기456,,,,,,,,,,,,,,,,,,
-이대연,SK트레이딩인터내셔널,초보아빠의 내 아이를 위한 GPTs,일상,초급,https://playground.mysuni.com/hub/detail/1b131ddeda36414b89a299e5bde849e8,가포리,,,,,,,,,,,,,,,,,,
-장준홍,SK바이오사이언스,날씨에 맞는 옷차림 추천,일상,초급,https://playground.mysuni.com/hub/detail/e34b0d031482424fbcb1f8e1585567ab,활동적인코드마스터4172,,,,,,,,,,,,,,,,,,
-장준홍,SK바이오사이언스,ChatGPT를 활용한 냉장고에 남아있는 음식을 활용하는 법,일상,초급,https://playground.mysuni.com/hub/detail/ea429ddc7ff541cc8956e6af247a6b2e,활동적인코드마스터4172,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,여행 분석과 글쓰기,일상,초급,https://playground.mysuni.com/hub/detail/437d5ddce1234f6481473d543c9e5da2,David,,,,,,,,,,,,,,,,,,
-정남수,서비스에이스,python을 이용한 통계 자동화 (해지 유지율 일일보고),자동화,중급,https://playground.mysuni.com/hub/detail/b70ba3f62a5e4fcca9e7af7d99259706,유선CS마케팅_J,,,,,,,,,,,,,,,,,,
-손명빈,SK텔레콤,AI를 접목한 자동 기술 게시글 작성,자동화,중급,https://playground.mysuni.com/hub/detail/c69eca5d37d94fe5b97015aaa9acdb68,cavin,,,,,,,,,,,,,,,,,,
-김혜인,SK텔레콤,AI로 만든 USIM 웹툰 연재한 썰.SSUL,콘텐츠,중급,https://playground.mysuni.com/hub/detail/341160ed214148b680aafb1c342a359c,heky,,,,,,,,,,,,,,,,,,
-최홍석,SK 에코플랜트,내가 필요한 영역에서 전문성 있는 대답을 해주는 도우미,프롬프팅,초급,https://playground.mysuni.com/hub/detail/0287c60acbeb4f078887d51a32fb9ced,windchaser,,,,,,,,,,,,,,,,,,
-김혜인,SK텔레콤,AI로 만든 웹툰 연재한 썰.SSUL,콘텐츠,중급,https://playground.mysuni.com/hub/detail/341160ed214148b680aafb1c342a359c,heky,,,,,,,,,,,,,,,,,,
-최상균,SK엔무브,GPT를 이용한 법규 검색 및 이용,프롬프팅,초급,https://playground.mysuni.com/hub/detail/f2d5dbbb46714f23bd7d72214ec8e17a,HIBYOK,,,,,,,,,,,,,,,,,,
-박우숙,서비스에이스,리더십 역량 강화를 위한 e-러닝 제작,콘텐츠,중급,https://playground.mysuni.com/hub/detail/85ac915b8ba44b37a33c644d691974c0,활기찬빼빼로,,,,,,,,,,,,,,,,,,
-장용호,SK에코엔지니어링,영어공부하기,일상,초급,https://playground.mysuni.com/hub/detail/b15056a01fdc4404886b5aa5faf09416,AI를파트너로,,,,,,,,,,,,,,,,,,
-이장하,SK아이이테크놀로지,공모전 참여,일상,초급,-,활발한코딩고수4571,,,,,,,,,,,,,,,,,,
-김민지,SK텔레콤,생성형 AI를 활용한 Enterprise 솔루션 소개 영상 제작,콘텐츠,중급,https://playground.mysuni.com/hub/detail/589cc2421c32442aa2c5ef274e2b41c3,용감한코딩천재1234,,,,,,,,,,,,,,,,,,
-장준홍,SK바이오사이언스,Chat GPT를 활용한 메뉴 선정,일상,초급,https://playground.mysuni.com/hub/detail/26a40463829e40a5a17771ad593b4c12,활동적인코드마스터4172,,,,,,,,,,,,,,,,,,
-남소원,SK텔레콤,GPT와 함께하는 아웃룩 메일 읽어와서 첨부파일 정리하기,자동화,중급,https://playground.mysuni.com/hub/detail/cc61fae1b3a84d26a34ea1a22682dd9a,활기찬코리아1234,,,,,,,,,,,,,,,,,,
-최기형,SK주식회사 C&C,AI Agent로 블로그 초안 만들기,챗봇/RAG,중급,https://playground.mysuni.com/hub/detail/b2c52a7b0b2b4c21a804e0f2aef14313,활발한코딩러9567,,,,,,,,,,,,,,,,,,
-최혜진,SK주식회사 C&C,OpenAI 를 활용한 시를 써주는 챗봇 만들기,일상,초급,https://playground.mysuni.com/hub/detail/b6d31a6d6ce8458fa0c0632793e2e5a5,지니,,,,,,,,,,,,,,,,,,
-최병일,SK텔레콤,SCM 공급망의 최근 뉴스기사 스크래핑을 통한 뉴스레터 발송 Tool,자동화,중급,https://playground.mysuni.com/hub/detail/c0a3cd26c0574dbd864504b56ac5dd2e,BIC,,,,,,,,,,,,,,,,,,
-이건표,SK이노베이션,ChatGPT와 Power Automate를 활용한 업무 자동화,자동화,중급,https://playground.mysuni.com/hub/detail/6daa5869f2d142298c5d7f5c1c1e890f,일잘하고싶다,,,,,,,,,,,,,,,,,,
-서정민,SK텔레콤,칵테일 레시피를 추천해주는 GPTs 만들기,일상,초급,https://playground.mysuni.com/hub/detail/47095b2a4a1843b7b89cd0239bddc36f,활발한초코2234,,,,,,,,,,,,,,,,,,
-최현진,SK텔레콤,국가별 뉴스 기사 리서치 업무 자동화,자동화,중급,https://playground.mysuni.com/hub/detail/917e041d94964b59b7fa04b00384e262,활기찬코딩러9834,,,,,,,,,,,,,,,,,,
-양정균,SK트레이딩인터내셔널,엑셀을 활용한 복잡한 계층형 분석 (Power Query + Pivot),데이터분석,중급,https://playground.mysuni.com/hub/detail/f64cf7a7065846708ae0e641ee34f69c,활동적인밤하늘5732,,,,,,,,,,,,,,,,,,
-이서연,SK텔레콤,하나의 콘텐츠를 SNS로 재확산하기,콘텐츠,중급,https://playground.mysuni.com/hub/detail/0a9d956b0c014162986a435ed83765c8,발빠른코딩보라9032,,,,,,,,,,,,,,,,,,
-김동현,행복나래,사회적 기업 홍보영상 제작하기,콘텐츠,중급,https://playground.mysuni.com/hub/detail/b113840dd6fd4d8aaf50f78cc86099d2,휴~그랜트,,,,,,,,,,,,,,,,,,
-전수빈,SK에너지,"혁신기술실 안전캠페인 영상, 포스터, 스티커 작성",콘텐츠,중급,https://playground.mysuni.com/hub/detail/2d182e1b51aa42b3860d1e9fd6958df1,SP팀 화이팅~,,,,,,,,,,,,,,,,,,
-임은영,SK하이닉스,AI 기반 제조 UI 개발을 통해 Smart Factory 고도화 추진,자동화,중급,https://playground.mysuni.com/hub/detail/ce0c71105b4740f1808470142421d78f,best,,,,,,,,,,,,,,,,,,
-정동수,SK하이닉스,ChatGPT(HyGpt)를 통한 반도체 장비 대수 산출 Web개발,자동화,중급,https://playground.mysuni.com/hub/detail/6ec2d560ae1043ccba4c4648bb9c9402,아메들고걷자,,,,,,,,,,,,,,,,,,
-백지선,SK텔레콤,모솔 탈출! 가스라이팅 탈출! 고민상담 master.. 단비같은 AI.,일상,초급,https://playground.mysuni.com/hub/detail/c061d243454d485fa6dad9199b19e3c3,패트로패트로패트로패,,,,,,,,,,,,,,,,,,
-김민주,SK주식회사 C&C,Product Scene Maker: AI로 만드는 맞춤형 상품 배경,콘텐츠,중급,https://playground.mysuni.com/hub/detail/a318c913608c4d7c9fc87d44e62bb10e,밍,,,,,,,,,,,,,,,,,,
-서정민,SK텔레콤,근로기준법에 대해 조언해주는 노무조무사 GPT,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/66b2021a14be4a52b9f8999579130746,활발한초코2234,,,,,,,,,,,,,,,,,,
-최호임,SK에코엔지니어링,파워포인트 슬라이드 뼈대 잡기,콘텐츠,초급,https://playground.mysuni.com/hub/detail/84835688f66f459988a6946b5e9d628f,bengsang,,,,,,,,,,,,,,,,,,
-박승훈,SK텔레콤,ChatGPT로 RPA 초급자가 중급자로 둔갑하기,자동화,중급,https://playground.mysuni.com/hub/detail/bdb45bde7ec44a389b1319ae403a6e67,베스트초이스,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,PPT 메시지 구성 자동화,콘텐츠,초급,https://playground.mysuni.com/hub/detail/7da185cde9094f62b684e3c3d92fd2a6,David,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,"OT 시간, 독서, 소비",일상,초급,https://playground.mysuni.com/hub/detail/c92adbf236c64b7382d9066527101bca,David,,,,,,,,,,,,,,,,,,
-강민욱,SK가스,"술자리 건배사 쫄지말자 삼행시 GPT로 자신있게!""""",일상,초급,https://playground.mysuni.com/hub/detail/ea057b8fa96e4441aff967d548ec2002,해운대 꿀주먹,,,,,,,,,,,,,,,,,,
-김창은,SK주식회사 C&C,쌓여만 가는 냉장고 속 식재료를 해결해줘,일상,초급,https://playground.mysuni.com/hub/detail/bbf510d01c424ccb891bda879fbee7c7,열정적인코드마스터4512,,,,,,,,,,,,,,,,,,
-서호민,SK텔레콤,MBTI 소통 마법사와 퀴즈 팡팡,일상,초급,https://playground.mysuni.com/hub/detail/32f25e43badb482bab7fb771c9b2c2d2,SmartCona,,,,,,,,,,,,,,,,,,
-최민석,SK텔레콤,공급사 주가 급변동 시 챗GPT가 최신 뉴스 분석하여 메일 자동 송부,자동화,중급,https://playground.mysuni.com/hub/detail/aa1a95dd8e064cec9ad1afe9801a20ce,신속한바나나2025,,,,,,,,,,,,,,,,,,
-유수빈,SK텔레콤,문과생도 쉽게! ✨ ChatGPT로 경쟁사 이벤트 실시간 캐치하기 ,자동화,중급,https://playground.mysuni.com/hub/detail/173a53705bc14c75b1c5beeb1147a32b,용감한소나무,,,,,,,,,,,,,,,,,,
-김완상,SK텔레콤,산업 기술 분석 및  프레젠테이션 자동화 AI 도구,자동화,중급,https://playground.mysuni.com/hub/detail/68e468c301eb4c67a21b22b37bd3eb4d,신중한코딩마스터5782,,,,,,,,,,,,,,,,,,
-이승현,SK케미칼,생성형 AI 활용 숏폼으로 내부 구성원 교육을?,콘텐츠,초급,https://playground.mysuni.com/hub/detail/f428036b0bb44c5a8a479e287b70494c,용감한하늘1234,,,,,,,,,,,,,,,,,,
-김종식,SK하이닉스,Raw Data 전처리 후 수율 데이터 자동화 코드 구현,자동화,중급,https://playground.mysuni.com/hub/detail/9ba810399bb548378fdbaa4864eea557,신중한도깨비2947,,,,,,,,,,,,,,,,,,
-김현욱,SK이노베이션,영어 표현 공부하기,일상,초급,https://playground.mysuni.com/hub/detail/909954baf9fb4aea939655110ae24b7a,신속한코딩덕후4729,,,,,,,,,,,,,,,,,,
-임재윤,SK텔레콤,이제 속지말자! 정말 내가 원하는 맛집 찾기,일상,초급,https://playground.mysuni.com/hub/detail/cea438baa7834b8d95ea4b07bc73f6ac,활발한코딩중독자,,,,,,,,,,,,,,,,,,
-이원탁,SK주식회사 C&C,영어 문법 및 작문 도우미,일상,초급,https://playground.mysuni.com/hub/detail/4de51fe4565f4b818e4bd9f240c22343,만랩,,,,,,,,,,,,,,,,,,
-김범조,SK하이닉스,오늘 저녁 뭐 먹지?,일상,초급,https://playground.mysuni.com/hub/detail/9b643a60a3fc47cea9ea9d0694e2c605,에스케이하이닉스,,,,,,,,,,,,,,,,,,
-이다은,SK매직,AI 툴을 활용한 UX 리서치와 퍼소나 설정하기,자동화,중급,https://playground.mysuni.com/hub/detail/865cd562503a4ae084111c4bd72e6617,책임감이있는푸른별1923,,,,,,,,,,,,,,,,,,
-박장호,SK텔레콤,문서 정보를 병렬로 조회하는 챗봇,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/31bf0f0b4af64185b2e2997482af350f,피이쓰,,,,,,,,,,,,,,,,,,
-김병두,SK텔레콤,키워드 기반 뉴스 검색 GPTs 및 크롤링 Tool 제작,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/b07aa084b1cc47f6a63c4be7fde0fd38,열정적인바다1234,,,,,,,,,,,,,,,,,,
-김형민,SK하이닉스,"[업무자동화] Data 전처리, 분석, 시각화 자동화",자동화,초급,https://playground.mysuni.com/hub/detail/f6c70938e7314f91ad59d7ce41fab606,hmkim,,,,,,,,,,,,,,,,,,
-유해식,SK주식회사 C&C,ChatGPT를 활용해서 수준별 맞춤 교육 컨텐츠 개발,콘텐츠,초급,https://playground.mysuni.com/hub/detail/004933278bac4b2094e284844e09c975,활발한코딩어2205,,,,,,,,,,,,,,,,,,
-류장수,SK브로드밴드,제안업무에 생성형AI 이미지 활용기,콘텐츠,초급,https://playground.mysuni.com/hub/detail/6edb7f53a0154f9692d1091368997987,장수만세2033,,,,,,,,,,,,,,,,,,
-한별이,SK이노베이션,ZIC 윤활유 Advisor 따라잡기,자동화,초급,https://playground.mysuni.com/hub/detail/c78f4619bc1444adadb81fb8c197ef65,오모리,,,,,,,,,,,,,,,,,,
-이원준,SK바이오텍,충돌주의 경고표지 제작,콘텐츠,초급,https://playground.mysuni.com/hub/detail/fbc88fb91e154a939cd96e4ee54a0ccb,활발한고양이4782,,,,,,,,,,,,,,,,,,
-이성철,SK E&S,생성형 AI를 활용한 제안서 PPT 커버이미지 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/095b05bd79fa4e558ef9bc8d4de3d793,에디사마,,,,,,,,,,,,,,,,,,
-박승렬,SK텔레콤,ChatGPT를 활용한 Code Conversion,자동화,초급,https://playground.mysuni.com/hub/detail/b44550fcafb143bb975ffa6d937724f1,신비로운별987,,,,,,,,,,,,,,,,,,
-이성우,SK에코엔지니어링,"설계 문서의 Revision 시, 변경 사항 자동 검색 및 표기",자동화,초급,https://playground.mysuni.com/hub/detail/5fe91bf84cfd4ae4841f97ae2b712dbd,Sting,,,,,,,,,,,,,,,,,,
-강단,SK텔링크,ChatGPT를 활용한 고객 1:1 문의 응답 자동 템플릿 추천,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/31d77f68994a493880f9af6e90d49851,따뜻한커피4443,,,,,,,,,,,,,,,,,,
-박재옥,SK하이닉스,다변량 측정 데이터의 효율적인 분석을 위한 데이터 분석 코드 작성,데이터분석,중급,https://playground.mysuni.com/hub/detail/791d4033f1804118ac3bb6b863f96ff2,막나가는GPT,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,Playlist 분석과 추천,일상,초급,https://playground.mysuni.com/hub/detail/b0209b3f0e2b40599c0cc989019f8b85,David,,,,,,,,,,,,,,,,,,
-이은진,SK하이닉스,ChatGPT를 활용한 이름 짓기 (작명소가 필요 없음!),일상,초급,https://playground.mysuni.com/hub/detail/79a165cb7a7c4d4d9c677989c656baee,성실한문어8713,,,,,,,,,,,,,,,,,,
-김건훈,SK텔레콤,"챗 GPT로 시니어 대화 친구 만들기, 고령화 사회문제 해결!",일상,초급,https://playground.mysuni.com/hub/detail/9a17c3de33ec468fad330105c7e45391,간짜장,,,,,,,,,,,,,,,,,,
-박한누리,SK하이닉스,생성형 AI를 이용한 Die Level Defect IMG 생성 내재화,데이터분석,중급,https://playground.mysuni.com/hub/detail/48aeb0e066ae45ccb13249acd00273dd,활발한코딩덕후4392,,,,,,,,,,,,,,,,,,
-박세용,SK텔레콤,엑셀VBA를 활용한 부동산 자산 간접 실사,자동화,초급,https://playground.mysuni.com/hub/detail/f3cc9f50f8e34a4393f3f9d0cfb818ee,활기찬데이터1098,,,,,,,,,,,,,,,,,,
-김인영,SK매직,미드저니를 활용한 기획의 시각화,콘텐츠,초급,https://playground.mysuni.com/hub/detail/dbc6e45279354458bf1f4448c36a785e,betterworks,,,,,,,,,,,,,,,,,,
-홍승기,SK온,팀장님 감사패 작성,일상,초급,https://playground.mysuni.com/hub/detail/aba00d0470374be2817005f47b95c15a,플토,,,,,,,,,,,,,,,,,,
-김진형,SK지오센트릭,"Chat GPT를 활용해 EU 규정 확인, 고객 요구사항 회신 레터 작성",프롬프팅,초급,https://playground.mysuni.com/hub/detail/63c20b1f094c4ed5a2cc16dd8ffb3ec0,ActuallyIdid,,,,,,,,,,,,,,,,,,
-오석진,SK브로드밴드,AI을 활용한 광고 이미지 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/0417d45cf04342319cb799d731330785,하늘아기,,,,,,,,,,,,,,,,,,
-김경식,SK텔레콤,여러 개 인터페이스를 한번에 조회하는 정규표현식 만들기,자동화,초급,https://playground.mysuni.com/hub/detail/2bce536fca7a4bf1a1a96e9a922eb33c,활발한코딩마스터3452,,,,,,,,,,,,,,,,,,
-최지훈,SK주식회사 C&C,chatgpt 로 여행 비서 만들기,일상,초급,https://playground.mysuni.com/hub/detail/d817225695a84d289aa122dcc9a5baf8,취미활동,,,,,,,,,,,,,,,,,,
-조영재,SK하이닉스,안전한 지게차 사용환경 구축을 통한 사고예방,프롬프팅,초급,https://playground.mysuni.com/hub/detail/efc18e6de5474693a49351c1fbdfe001,어콩이,,,,,,,,,,,,,,,,,,
-김종범,SK텔레콤,(비업무/일상) AI가 그려주는 우리 아이들 잠자리 동화,일상,초급,https://playground.mysuni.com/hub/detail/9e8d1e00a22341638f438e2200ab6dc4,pgdl,,,,,,,,,,,,,,,,,,
-김지현,SK하이닉스,11주년 장기근속 휴가 일정을 chap GPT로!(나만의 여행상품 제작),일상,초급,https://playground.mysuni.com/hub/detail/1922c6ea18014625bf3f36397545623a,빠른코딩마스터4583,,,,,,,,,,,,,,,,,,
-김준호,SK텔레콤,AI 공모전을 AI로 날로 먹기,프롬프팅,초급,https://playground.mysuni.com/hub/detail/0807879447b3434aac0e1b998165b6ae,활기찬별똥별1234,,,,,,,,,,,,,,,,,,
-이경동,SK브로드밴드,GPT4로 쉽게 작성하는 액셀 자동화 VBA,자동화,초급,https://playground.mysuni.com/hub/detail/5794a2ae7cc3412ca1713e9d50d1a2ac,브로비동,,,,,,,,,,,,,,,,,,
-김태은,SK텔레콤,모바일신분증 증명사진 활용,콘텐츠,초급,https://playground.mysuni.com/hub/detail/126a363c05c047cba1b121d67e71b27e,우주소년,,,,,,,,,,,,,,,,,,
-최선호,SK하이닉스,ChatGPT를 활용한 해석 Knowledge 이해,프롬프팅,초급,https://playground.mysuni.com/hub/detail/7fa7399cf0134a5696f09cefa13605e2,써니보이,,,,,,,,,,,,,,,,,,
-최병원,SK오앤에스,생산적인 업무를 할 시간이 부족해? 그럼 자동화(RPA)지~,자동화,초급,https://playground.mysuni.com/hub/detail/0e31e5d48ea54a22b51fd8a856842c61,열정적인코딩2471,,,,,,,,,,,,,,,,,,
-오두진,SK바이오사이언스,AI를 활용한 공정 시간의 과학적 근거 마련하기,프롬프팅,초급,https://playground.mysuni.com/hub/detail/3587cbe9e357491fab0f37def0958ac5,활발한고양이2023,,,,,,,,,,,,,,,,,,
-진기훈,SK텔레콤,X Crawling (AI Frontier 교육),자동화,초급,https://playground.mysuni.com/hub/detail/270ca543114648ef97c0d59d95af8bb9,활발한코딩마스터2038,,,,,,,,,,,,,,,,,,
-이성우,SK텔레콤,Perplexity - 거짓없는 초스피드 기업조사,자동화,초급,https://playground.mysuni.com/hub/detail/743f3c51efb74182a148949743da122b,라파엘로,,,,,,,,,,,,,,,,,,
-김명우,SK하이닉스,GPT 를 이용한 업무관련 최신 기술 파악,자동화,초급,https://playground.mysuni.com/hub/detail/54674d25a5b54d478ffd5ad141137292,따스한크리스,,,,,,,,,,,,,,,,,,
-최충열,SK텔레콤,통합국 광케이블 인입 프로젝트,콘텐츠,초급,https://playground.mysuni.com/hub/detail/81a8803ac33741c1a4f05d9639a94da3,마루,,,,,,,,,,,,,,,,,,
-하영훈,SK머티리얼즈,ChatGPT4.0 업무 활용 사례,프롬프팅,초급,https://playground.mysuni.com/hub/detail/5a026d66044149afb361190459649ea9,신을부르는소리1024,,,,,,,,,,,,,,,,,,
-김지현,SK하이닉스,영유다니는 우리애기보다 못한 내 영어회화를 도와줘.....,일상,초급,https://playground.mysuni.com/hub/detail/72c70ab0212c45a0af88675288d00c1a,빠른코딩마스터4583,,,,,,,,,,,,,,,,,,
-이경한,서비스에이스,chat gpt 활용을 통한 업무시간 단축 및 효율화,자동화,초급,https://playground.mysuni.com/hub/detail/e007190a10a5440abf6e54ec6c5363c7,호기심많은코드러1234,,,,,,,,,,,,,,,,,,
-최윤석,SK텔레콤,ChatGPT를 활용한 영어 blog 및 news 요약,자동화,초급,https://playground.mysuni.com/hub/detail/c1646e2d2c5045a78f2f2798eaff83a8,무파,,,,,,,,,,,,,,,,,,
-노도형,SK하이닉스,HyGPT를 활용한 이미지 자동 계측 시스템 개발 시간 단축,데이터분석,중급,https://playground.mysuni.com/hub/detail/cb1ea14b37dc4bfc8fc3b3a97bf04947,활동적인코딩마스터1924,,,,,,,,,,,,,,,,,,
-권대근,SK바이오사이언스,통계프로그램 대신 써볼까? 어디까지 해줄 수 있을까?,데이터분석,초급,https://playground.mysuni.com/hub/detail/1b894a4b8ce54443a22e2663e39a426d,도리도리,,,,,,,,,,,,,,,,,,
-김우희,SK텔레콤,Gen-AI Art Challenge 기획하고 실행하기!,프롬프팅,초급,https://playground.mysuni.com/hub/detail/e98b8955b7fe4c92963f2b33b17b94aa,활발한코딩초보3472,,,,,,,,,,,,,,,,,,
-손인욱,SK하이닉스,U-NET 으로 예측하는 TEM Guide Image생성,데이터분석,초급,https://playground.mysuni.com/hub/detail/0aa86022b7344a4c9a8d5f8162bebbdc,CVAE미분중,,,,,,,,,,,,,,,,,,
-라대원,SK텔레콤,회사에서 신입사원 채용을 위한 공고 문구 작성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/951cb10b86f8429688ef3eee8a691675,나도달리오,,,,,,,,,,,,,,,,,,
-박세용,SK텔레콤,개떡같이 입력된 주소도 찰떡같이 정리해줘 (회사 부동산 현행화),자동화,초급,https://playground.mysuni.com/hub/detail/214d552448154b8fa888e08a8d73bba3,활기찬데이터1098,,,,,,,,,,,,,,,,,,
-신수환,SK인천석유화학,환경설비 제출 자료 작성 자동화(엑셀 매크로),자동화,초급,https://playground.mysuni.com/hub/detail/a74b56f8e2834539b6b875f284643178,동글,,,,,,,,,,,,,,,,,,
-김수정,SK이노베이션,Chat GPT를 활용한 엑셀 데이터 처리 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/0ce783adb8da42acb3b8c1b6858523c4,활발한호랑이77,,,,,,,,,,,,,,,,,,
-서희원,SK브로드밴드,ChatGPT의 도움으로 부족한 사례의 SSL인증서 오류 해결,프롬프팅,초급,https://playground.mysuni.com/hub/detail/440d9ccec0064b8589b4bc787c150d8d,배고픈코끼리,,,,,,,,,,,,,,,,,,
-임규민,SK텔레콤,AI와 함께 이사를,일상,초급,https://playground.mysuni.com/hub/detail/f691504f21294bb3a717595c0adb7fc0,그대는선물입니다,,,,,,,,,,,,,,,,,,
-이상희,SK텔레콤,생성형 AI를 통한 대 고객 메시지 개선,자동화,초급,https://playground.mysuni.com/hub/detail/b97a08893929456d8f2955ee1c42a9c1,ㅇㅅㅎ,,,,,,,,,,,,,,,,,,
-김영관,SK텔레콤,나의 일상 기록을 영어로 완벽하게 표현해주는 AI 정말 정말 놀라워요!!,일상,초급,https://playground.mysuni.com/hub/detail/8fa33ab914bb48d696ad73a10e8e506c,고산,,,,,,,,,,,,,,,,,,
-김수현,SK바이오사이언스,AI 검색으로 실험 관련 참고 문헌 조사부터 요약까지 한큐에,프롬프팅,초급,https://playground.mysuni.com/hub/detail/f6341306b89d4abe8c9b789f91d803f4,가빈,,,,,,,,,,,,,,,,,,
-최성우,SK에너지,30년간 써온 고전적인 방식 이제 탈피합시다!,자동화,초급,https://playground.mysuni.com/hub/detail/38c0f85f69a64190856b9b03c4476210,태오에르난데스,,,,,,,,,,,,,,,,,,
-윤영수,SK온,AI를 활용한 외관검사 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/e35b4fb24a004ce1b3c013118374ca3f,활발한코딩천사2309,,,,,,,,,,,,,,,,,,
-임종열,SK텔레콤,주식의 배당금을 자동으로 불러오는 파이썬 코드 생성,일상,초급,https://playground.mysuni.com/hub/detail/c96ea725452a4d51a1989da61a511ed9,빈센트5004,,,,,,,,,,,,,,,,,,
-윤선진,SK텔레콤,내 맘대로 자서전을 만들어 드립니다.,일상,초급,https://playground.mysuni.com/hub/detail/3a4967b17b114a049fc2150d4055b9f3,순대볶음,,,,,,,,,,,,,,,,,,
-김영관,SK텔레콤,시도 영어로 번역이 되었네요,일상,초급,https://playground.mysuni.com/hub/detail/2e5f00b0815147219fac1ee25d318d64,고산,,,,,,,,,,,,,,,,,,
-장석훈,SK머티리얼즈,[사과 메세지] 회식 후 만취 상황,일상,초급,https://playground.mysuni.com/hub/detail/6f147df1a6f04ac9994af72ab7653fbb,쿠크다스바사삭,,,,,,,,,,,,,,,,,,
-배성현,SK텔레콤,상황에 맞게 RM대응을 할 수 있는 조치방법 검색하기,프롬프팅,초급,https://playground.mysuni.com/hub/detail/9da3eeb40ccd4f7cbf5c5e3431f65f55,Custos,,,,,,,,,,,,,,,,,,
-이재홍,SK브로드밴드,10분만에 완성하는 생성형AI로 홍보용 콘텐츠이야기 만들기,콘텐츠,초급,https://playground.mysuni.com/hub/detail/72bfb19d83cf4b88a46d3c9498c57409,후홍몽,,,,,,,,,,,,,,,,,,
-최현호,SK이노베이션,ChatGPT로 데이터전처리 및 시각화 하기,데이터분석,초급,https://playground.mysuni.com/hub/detail/d81af19ccbf94f3e8ecb85cafd1c096d,냠냠,,,,,,,,,,,,,,,,,,
-윤상돈,SK하이닉스,ChatGPT 3.5를 이용한 excel VBA작성,자동화,초급,https://playground.mysuni.com/hub/detail/975a00e5edd44624bc1b3c12d32737a2,활발한고양이0427,,,,,,,,,,,,,,,,,,
-성진경,SK하이닉스,왕초보 엑셀에서 AI 사용하기,자동화,초급,https://playground.mysuni.com/hub/detail/6b5da83cde104a5aa90152c83856941f,진진돌이,,,,,,,,,,,,,,,,,,
-최종현,SK텔레콤,멋진 댓글을 작성하고 싶어요! (베스트셀러 작가라구욧!),일상,초급,https://playground.mysuni.com/hub/detail/1047447c087d45f8b167f8eab318661d,닉네임,,,,,,,,,,,,,,,,,,
-한승혜,SK하이닉스,세상에 하나밖에 없는 동화책을 AI로 만들어 아이에게 생일선물하기,콘텐츠,초급,https://playground.mysuni.com/hub/detail/8aa41b7598b64b74b2fec06ab4e9eda3,활발한고래,,,,,,,,,,,,,,,,,,
-김임교,SK텔링크,보안뉴스 요약봇 만들기,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/1ec8abc030c74d66ad7b2be7daa61bcf,아이언매니아,,,,,,,,,,,,,,,,,,
-정재영,SK하이닉스,ChatGPT를 활용하여 Program Setup Interlock 개발,자동화,초급,https://playground.mysuni.com/hub/detail/7f7119600d3544cebec94f137a84f915,jungjae02,,,,,,,,,,,,,,,,,,
-김성규,SK텔레콤,AI Tool을 활용한 마스코드 이미지 에셋 제작,콘텐츠,초급,https://playground.mysuni.com/hub/detail/f5b2a3b08d954741ba16505313059577,무아지경,,,,,,,,,,,,,,,,,,
-박호준,SK텔레콤,Gen-AI Art Challenge GAAC 2탄 참여 결과물 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/da6f9f5d657149c598bd992f2ff75657,우보천리999,,,,,,,,,,,,,,,,,,
-김민석,SK텔레콤,ChatGPT python 코딩 활용 경험담,자동화,초급,https://playground.mysuni.com/hub/detail/6faaf2d8b9214224bee57e2d02a05ef7,플레이,,,,,,,,,,,,,,,,,,
-최재홍,SK주식회사 C&C,Google Maps와 여행,일상,초급,https://playground.mysuni.com/hub/detail/46d546aa60204f17993b325903962680,David,,,,,,,,,,,,,,,,,,
-허준혁,부산도시가스,뉴스 기사 작성 시 생성형AI 활용,콘텐츠,초급,https://playground.mysuni.com/hub/detail/552558db576540a39d753a5476bc1a53,온몸이다아픔,,,,,,,,,,,,,,,,,,
-하제중,SK텔레콤,Edge AI Accelator를 활용한 IoT 솔루션 활용분야,자동화,초급,https://playground.mysuni.com/hub/detail/4c5a37ee60e54f3f9f89f146735fb8f0,portland,,,,,,,,,,,,,,,,,,
-석태원,충청에너지서비스,Chat GPT 데이터분석 Tool을 활용한 '도시가스 판매량 예측',데이터분석,초급,https://playground.mysuni.com/hub/detail/1d55eec9a88c401e9db725c9150b4a0a,크레마뇽2024,,,,,,,,,,,,,,,,,,
-김강석,SK에너지,RPA로 점심식사(샐러드) 신청 자동화,일상,초급,https://playground.mysuni.com/hub/detail/31943cf554ec4365aa4f67e52a6a0663,다이아몬드,,,,,,,,,,,,,,,,,,
-강병호,SK주식회사 C&C,정기적인 기술세션 계획 작성을 위한 ChatGPT 활용,프롬프팅,초급,https://playground.mysuni.com/hub/detail/eb716009e1154c0cace0970222ef41a3,블루타이거,,,,,,,,,,,,,,,,,,
-최정호,SK텔레콤,올 여름 디스코 소울 펑크로 타임 슬립,일상,초급,https://playground.mysuni.com/hub/detail/3ed7d2dd631b47fdafa483f7aa25c319,ho,,,,,,,,,,,,,,,,,,
-김임교,SK텔링크,개인정보보호 가이드 챗봇 만들기,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/5776215223604bba9d8bfcef7f32aba4,아이언매니아,,,,,,,,,,,,,,,,,,
-권익현,SK하이닉스,업무효율을 위한 Portal Site 제작,개발,중급,https://playground.mysuni.com/hub/detail/299ba803fad746f2b8af52d8b30f5a8f,코딩이어려워요,,,,,,,,,,,,,,,,,,
-윤호경,SK바이오사이언스,"ChatGPT 활용 간편 단어사전"" 프롬프트 템플릿""",자동화,초급,https://playground.mysuni.com/hub/detail/c1a16ec15dc04c669ae8a57d6e6112d3,백령해병,,,,,,,,,,,,,,,,,,
-임종열,SK텔레콤,ESG 관련 뉴스 수집(600개 기사) -> 결과를 엑셀로 실행,자동화,초급,https://playground.mysuni.com/hub/detail/8cf9ba3699d34fe797edbf469bf9dcdd,빈센트5004,,,,,,,,,,,,,,,,,,
-이준호,SK핀크스,"ChatGPT와 Zapier를 활용한 AI 업무 혁신""""",콘텐츠,초급,https://playground.mysuni.com/hub/detail/bb90fada91fb42fbadd01bd0b600219d,끊임없는기린7482,,,,,,,,,,,,,,,,,,
-양정균,SK트레이딩인터내셔널,ChatGPT와 함께하는 재고평가 방법 구현 (FIFO/LiFO/...),자동화,초급,https://playground.mysuni.com/hub/detail/539f40b7afb74304962e23b853e6a94b,활동적인밤하늘5732,,,,,,,,,,,,,,,,,,
-유현주,SK텔레콤,신규 사업발굴의 든든한 파트너 My GPT !!,프롬프팅,초급,https://playground.mysuni.com/hub/detail/d45c356bb6f4497095943c296687daf7,신나게놀아볼까?,,,,,,,,,,,,,,,,,,
-임성근,SK바이오사이언스,bing copliot을 이용한 문서 요약 정리,자동화,초급,https://playground.mysuni.com/hub/detail/beed705d55d54f8a84d68233b122e243,활동적인코딩천재,,,,,,,,,,,,,,,,,,
-김강석,SK에너지,RPA로 근무시간 입력 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/aa0b97e8afeb4e9cbbe57ba39da35ca8,다이아몬드,,,,,,,,,,,,,,,,,,
-김강석,SK에너지,생성형 Ai 이미지를 통한 홍보자료 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/07411d92f849495284cbc885b1110840,다이아몬드,,,,,,,,,,,,,,,,,,
-김강석,SK에너지,RPA로 출입 신청 시 승인 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/6eca369ae59e420c8be2a9f376b8deb2,다이아몬드,,,,,,,,,,,,,,,,,,
-김강석,SK에너지,Power BI로 설비관리 시스템 Dashboard 구축,자동화,초급,https://playground.mysuni.com/hub/detail/904c1e30d3134245b1e7ccc3a51df864,다이아몬드,,,,,,,,,,,,,,,,,,
-김수정,SK이노베이션,생일 카드도 한번에 쉽게~,일상,초급,https://playground.mysuni.com/hub/detail/0c87e1805c81416590d35d141ca39304,활발한호랑이77,,,,,,,,,,,,,,,,,,
-박혜준,SK에너지,파이썬 코드 공부 시 ChatGPT 활용,자동화,초급,https://playground.mysuni.com/hub/detail/ee6df036a25e422ca737d5ceadf32144,smart하게 만들어줘,,,,,,,,,,,,,,,,,,
-김주섭,SK하이닉스,계약 Data 기반으로 월별 소요 비용 자동 계산 프로그램 작성,개발,중급,https://playground.mysuni.com/hub/detail/00c8eb186cdd4c4797d49ea94772ce8d,쉼터,,,,,,,,,,,,,,,,,,
-김문선,SK하이닉스,GPT를 활용한 표준 용어 점검 개선,자동화,초급,https://playground.mysuni.com/hub/detail/707b4ea076724bf4a021df4c56ab7a33,신중한레몬3427,,,,,,,,,,,,,,,,,,
-한승기,SK하이닉스,코파일럿을 이용한 기술리포트 연구개발 시사점 도출,프롬프팅,초급,https://playground.mysuni.com/hub/detail/dd7f9e429f284f0ba1403f6226c06f14,강인한합리주의자,,,,,,,,,,,,,,,,,,
-고영후,SK텔레콤,기업 소개 보고서 생성,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/91edc11099d14648be2299e35d80092a,ETNA,,,,,,,,,,,,,,,,,,
-최진선,SK에코엔지니어링,내가 사는 지역에서 우리 가족의 삶 이미지 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/a357d411bffb455daefb33d20a82a62b,호기심많은코코폴리3125,,,,,,,,,,,,,,,,,,
-박희승,SK에코엔지니어링,ChatGPT를 활용한 프로젝트 성과품 작성,프롬프팅,초급,https://playground.mysuni.com/hub/detail/dc5e677def10474d81e884a1562dfffd,활발한데이터8207,,,,,,,,,,,,,,,,,,
-오상훈,SK하이닉스,Streamlit 웹앱으로 데이터 분석 및 시각화하여 업무 효율성 높이기,개발,중급,https://playground.mysuni.com/hub/detail/4a8e38419de74850a2e186e9a1876554,활기찬코끼리3275,,,,,,,,,,,,,,,,,,
-윤효리,SK텔레콤,YouTube 콘텐츠 Title&Description 작성 프로그램,개발,중급,https://playground.mysuni.com/hub/detail/37c4b21dc08b44b99091f3a5f9e5ed8d,yorijori,,,,,,,,,,,,,,,,,,
-김민수,SK하이닉스,Spare Part 재고 관리 및 안전재고 확보 업무 효율화,자동화,초급,https://playground.mysuni.com/hub/detail/5adb5e95cce54a2fac4fbe48f81d6b24,냐냐노냐,,,,,,,,,,,,,,,,,,
-조태현,SK이노베이션,연구노트 관리 규정 가이드 작성 및 응답 챗봇,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/b3f3823034164042970efaf2e7cd725d,푸른사막777,,,,,,,,,,,,,,,,,,
-김선익,SK텔레콤,이제 원하는 코드는  Chat GTP로  뚝딱 ~  HeatMap 만들기,자동화,초급,https://playground.mysuni.com/hub/detail/6026eea7e9934e75a9b4d56687946adb,신중한밤하늘8472,,,,,,,,,,,,,,,,,,
-윤호경,SK바이오사이언스,"ChatGPT 국어 맞춤법/띄어쓰기 검사"" 프롬프트 템플릿""",프롬프팅,초급,https://playground.mysuni.com/hub/detail/93a07a3b132a488a87e286b9688797f6,백령해병,,,,,,,,,,,,,,,,,,
-정현준,SK하이닉스,생성형 AI를 도입해서 투자수익 높여보기,일상,초급,https://playground.mysuni.com/hub/detail/80f406cc77384568b88caa7197524b98,비트코인,,,,,,,,,,,,,,,,,,
-이지수,SK하이닉스,전문 디자이너없이 NO저작권 로고/단체복 제작하기,일상,초급,https://playground.mysuni.com/hub/detail/fdaea36264bf4bd8b230c05a1dacdb77,코딩하는고라니,,,,,,,,,,,,,,,,,,
-박정환,SK텔레콤,이미지분석으로 안전을 진단하여 안전사고를 예방,데이터분석,초급,https://playground.mysuni.com/hub/detail/b895fc6e40d04bc3b0c4b5c08e0726af,활발한코마스터8742,,,,,,,,,,,,,,,,,,
-장준영,SK케미칼,ChatGPT를 활용한 엑셀(VBA) & SAP ERP 데이터 등록,자동화,초급,https://playground.mysuni.com/hub/detail/e57155fdac7e42d5b51837bebc4f455f,blue0082,,,,,,,,,,,,,,,,,,
-김진,SK텔레콤,간단한 스크립트는 혼자 짜주는 요즘 챗GPT 개발,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/4ececacaff2f4df48a1c1f46c7b24a04,singleheart,,,,,,,,,,,,,,,,,,
-박용규,SK텔레콤,총액매출? 순액매출? AI가 알려드립니다!,개발,중급,https://playground.mysuni.com/hub/detail/cdc46b909173476aaa5518d1b7f88cea,피터린치,,,,,,,,,,,,,,,,,,
-차재강,SK하이닉스,chatGPT를 활용한 코딩 작업 효율화 사례,자동화,초급,https://playground.mysuni.com/hub/detail/db622e1ed3314484ad5ebebe5fd8b585,활발한기술자789,,,,,,,,,,,,,,,,,,
-양정대,SK어스온,생성형 AI(ChatGPT)를 활용한 Digital Resume제작,개발,중급,https://playground.mysuni.com/hub/detail/1d684c2c1d4a439b8d69ae410ffa57c2,jdyang88,,,,,,,,,,,,,,,,,,
-정세용,SK하이닉스,Inline 진행 source 및 계측 data 정리 및 시각화 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/70413e8f25934980b6b46b1f69dd67c6,2066151,,,,,,,,,,,,,,,,,,
-박세용,SK텔레콤,"현장도 안가고, 돈도 안쓰고, 1주일만에 부동산 자산 주소 현행화 완료",개발,중급,https://playground.mysuni.com/hub/detail/a9dc0b57dff641c7ad992ca39151c7b3,활기찬데이터1098,,,,,,,,,,,,,,,,,,
-전창국,SK텔레콤,이미지 해석 앱,개발,초급,https://playground.mysuni.com/hub/detail/91710b040c674802998244639fa8c8a0,신속한코딩마스터1287,,,,,,,,,,,,,,,,,,
-정수영,부산도시가스,스마트 안전 파트너 챗봇 (법규/규정/절차 챗봇),챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/e6d5490c45794de9b0497eec113a438a,AI초보,,,,,,,,,,,,,,,,,,
-이명준,SK하이닉스,사내 GPT 를 활용하여 Python Code 최적화 및 속도개선한 사례,자동화,초급,https://playground.mysuni.com/hub/detail/e5906ce09ffe4620868902213ec77db4,산삼크런치,,,,,,,,,,,,,,,,,,
-임채완,SK하이닉스,인공지능과 함께하는 미래' 주제의 이미지 생성,콘텐츠,초급,https://playground.mysuni.com/hub/detail/7b11e2082e9341a5a2200d809fe49f50,활동적인토끼6578,,,,,,,,,,,,,,,,,,
-이동현,SK텔레콤,엑셀 자동 필터링 웹 구현하기 (점검이 필요한 공사장 자동 발췌),개발,초급,https://playground.mysuni.com/hub/detail/0d155584dccd4cf0988aaf1084687360,라떼병장,,,,,,,,,,,,,,,,,,
-은선우,SK케미칼,생성형 AI를 이용한 영입구성원 과정 과제 수행,자동화,초급,https://playground.mysuni.com/hub/detail/c144c368cfca4f6eb1b0920465e3ec3b,지혜로운고슴도치,,,,,,,,,,,,,,,,,,
-강시형,SK텔레콤,TOEIC 공부를 쉽게 해주는 GPT,일상,초급,https://playground.mysuni.com/hub/detail/9e1cb26106af4489bf1cd6897bb9f437,핼리포터,,,,,,,,,,,,,,,,,,
-박홍령,SK하이닉스,Verilog 코딩 - LUT Generate 자동화,자동화,초급,https://playground.mysuni.com/hub/detail/6f26d3426a99457f8d7b52974d52c29a,발빠른호랑이9812,,,,,,,,,,,,,,,,,,
-이상화,SK텔레콤,여름 휴가 계획 세우기,일상,초급,https://playground.mysuni.com/hub/detail/3154940a30d44491a09acc5558140313,용감한코드천사3421,,,,,,,,,,,,,,,,,,
-정성훈,SK이노베이션,Playground를 이용한 외국어 역량 향상,일상,초급,https://playground.mysuni.com/hub/detail/761931b3780f421d8321652006e63474,lll,,,,,,,,,,,,,,,,,,
-고준석,SK텔레콤,생성형 AI 활용 신입 구성원 전문 지식 습득 및 AI 지식 자산화,콘텐츠,초급,https://playground.mysuni.com/hub/detail/36225107eb2045d1a4abde8d426a7a41,마이쏘니,,,,,,,,,,,,,,,,,,
-이지훈,SK온,생성형 AI를 통한 경제 분석,데이터분석,초급,https://playground.mysuni.com/hub/detail/2c056f67a9244aa09e6b8ca2c8cdb55d,여우,,,,,,,,,,,,,,,,,,
-김진현,SK하이닉스,HTML 하나도 몰라도 WEB Page 만들기,개발,초급,https://playground.mysuni.com/hub/detail/9a3c88c9038f4c9480d8232e89e968bd,활동적인코딩맨,,,,,,,,,,,,,,,,,,
-한별이,SK이노베이션,그린워싱 리스크 검토 위한 GPTs 활용: Greewash Checker,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/5d5727e7b6a24cceb8f7133965b1e559,오모리,,,,,,,,,,,,,,,,,,
-안병섭,SK 에코플랜트,"AI 기술로 발파진동 예측하고, 터널 설계 자동화",프롬프팅,초급,https://playground.mysuni.com/hub/detail/879db81ff1154d6499e076d12d9f03a3,에코abs,,,,,,,,,,,,,,,,,,
-조국일,SK하이닉스,안전보건교육의 해결사: 생성형 AI로 정기안전보건 시험 통과하기,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/e7731678e3c44e89809a52d906dbe633,Charlie,,,,,,,,,,,,,,,,,,
-우창진,SK텔레콤,내가 좋아하는 노래들과 같은 코드 진행을 하는 노래 찾아보기,일상,초급,https://playground.mysuni.com/hub/detail/44e038384021471dad8e212f22f069c8,보노보노브라더,,,,,,,,,,,,,,,,,,
-이태우,SK하이닉스,Python 비동기 코드 도움받아서 비동기압축 함수 만들기!,개발,초급,https://playground.mysuni.com/hub/detail/774be42a994b4e0193f21abc61fd02ab,활발한코스모0347,,,,,,,,,,,,,,,,,,
-장정국,SK텔레콤,"홍수대비 안전 포스터,표어,홍보송 제작",콘텐츠,초급,https://playground.mysuni.com/hub/detail/0e99bd80a8534660b0abd95a4f94bfc6,명확한도도5221,,,,,,,,,,,,,,,,,,
-안예진,SK텔레콤,생성형 AI를 활용한 쉬운 특정분야 자료 리서치 방법 3가지,챗봇/RAG,초급,https://playground.mysuni.com/hub/detail/b102b2d486f04a41a011f0e1114bf030,캐서린,,,,,,,,,,,,,,,,,,
-김선웅,SK하이닉스,장비 생산성 분석을 위한 데이터 분석 Tool 구현,데이터분석,초급,https://playground.mysuni.com/hub/detail/f23750b34f8545c3801e25b9d2b481ae,활발한기술자3521,,,,,,,,,,,,,,,,,,
-김홍준,SK하이닉스,ChatGPT를 활용한 Layout Editor 개발,개발,초급,https://playground.mysuni.com/hub/detail/9f21c1df09874481be37ef6df35b21b8,히게,,,,,,,,,,,,,,,,,,
-금성환,SK하이닉스,Manual 관리하던 Data를 AI를 통해 자동화 관리하기!,개발,초급,https://playground.mysuni.com/hub/detail/fbe11bdddaab4b27a13c01bf16ff8e3f,마마마바바,,,,,,,,,,,,,,,,,,
-배수형,SK하이닉스,ChatGPT를 통한 화학반응 예측,데이터분석,초급,https://playground.mysuni.com/hub/detail/7fb3346e0af2499e95d156b3544cac73,꿈과희망,,,,,,,,,,,,,,,,,,
-남궁윤지,SK바이오사이언스,Perplexity로 식당 추천,일상,초급,https://playground.mysuni.com/hub/detail/7f167ff5a0114b40bace42013af32c02,겸손한블루파이5623,,,,,,,,,,,,,,,,,,
-이대식,SK주식회사 C&C,"ChatGPT, 라이선스 취득 학습 활용 사례",콘텐츠,초급,https://playground.mysuni.com/hub/detail/4a71eff86e974aada0bda90bee7922f7,행복토리,,,,,,,,,,,,,,,,,,
-송현규,SK이노베이션,Safety Talk 주제 탐색,콘텐츠,초급,https://playground.mysuni.com/hub/detail/2362e392c8cd49669b0972fdc4a55b33,SHE 꿈나무,,,,,,,,,,,,,,,,,,
-이재홍,SK브로드밴드,10분만에 완성하는 생성형AI로 광고용 콘티 만들기,콘텐츠,초급,https://playground.mysuni.com/hub/detail/60796e9751874dc289b7826bdc5164ec,후홍몽,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
+성명,회사,Title,주제,사전평가,Nickname
+이동권,SK하이닉스,생성형 AI를 활용한 defect 분류 시스템 개발,데이터분석,고급,반포
+전수빈,SK에너지,엑셀 데이터 분석 챗봇 제작,개발,고급,SP팀 화이팅~
+이진현,SK하이닉스,미래 언어를 정의하는 차세대 표준 용어 추천 모델 개발,콘텐츠,고급,초록매실
+김동훈,SK텔레콤,This Is Me(사진1장과 30초 음성으로 AI Agent생성),챗봇/RAG,고급,에드거
+이건백,SK하이닉스,P&M기술 전용 Private LLM : Pandora AI,챗봇/RAG,고급,광동돼지감자
+송의석,SK텔레콤,프로젝트 관리와 코딩을 같이 해주는 CodeMate,챗봇/RAG,고급,열정적인고구마피자
+김국중,SK 에코플랜트,"건물계약, 운영관리 마스터",챗봇/RAG,중급,새싹강남299
+이준구,SK텔레콤,AI기반 IX Biz 리포트 자동발행,자동화,고급,오누빠
+이준구,SK텔레콤,AI기반 IX Biz 리포트 자동발행,자동화,고급,오누빠
+여동기,SK텔레콤,OpenLLM 로컬 모델로 학습한 뉴스를 요약해 주는 챗봇,챗봇/RAG,중급,깜짝소리999
+임은영,SK하이닉스,AI 기반 제조 UI 개발을 통해 Smart Factory 고도화 추진,자동화,중급,best
+문지영,SK이노베이션,"Exergenius: Exergy Analysis, 누구나 단 몇 초만에",데이터분석,중급,행복한쿼카
+최문혁,SK하이닉스,GPT 활용한 SoC Power Data 예측,데이터분석,중급,나솨솨솨
+김대성,SK하이닉스,이제 논문도 썸네일에 낚여보자: Arxiv + Youtube,개발,중급,그레이트드라슈렛
+고경준,SK텔레콤,"AI를 활용한 업무 자동화(대량메일발송, 지식검색챗봇)",자동화,중급,cooldown12
+최현우,SK텔레콤,[업무 자동화] Chat GPT로 장비 통계 DashBoard 개발하기,개발,중급,맑은벚꽃
+김임교,SK텔링크,GPT로 골프라운딩 기록 분석해보기,일상,중급,아이언매니아
+김정현,SK텔레콤,코딩 한 줄 없이 프로야구 챗봇 만들기,일상,중급,설탕무
+박창선,SK하이닉스,생성형AI Google Bard와 Telegram bot을 연계 타로점,일상,중급,창의적인나비1234
+여동기,SK텔레콤,"OpenLLM, RAG 1차 구현",챗봇/RAG,중급,깜짝소리999
+이재홍,SK브로드밴드,공공데이터를 활용하여 중요지역 위해 요인 발굴 및 데이터베이스 시각화,일상,초급,후홍몽
+선유진,SK네트웍스,HRD: 업무 평가/보상 페이지 대시보드 개편(Netpro),자동화,중급,행복처돌이
+현호준,SK브로드밴드,디지털 커뮤니케이션 全업무 영역에 AI 활용,콘텐츠,고급,랜선걸
+최호임,SK에코엔지니어링,ChatGPT를 활용한 CAPEX 산정,프롬프팅,초급,bengsang
+최호임,SK에코엔지니어링,Compressor 구매비 산정,프롬프팅,초급,bengsang
+이재홍,SK브로드밴드,개인 맞춤형 뉴스 크롤링 생성을 위한 제이미니 활용,일상,초급,후홍몽
+최재홍,SK주식회사 C&C,독서 패턴 분석과 도서 추천,일상,초급,David
+이대연,SK트레이딩인터내셔널,GPTs를 활용한 채용 과정 개선,자동화,중급,가포리
+여동기,SK텔레콤,"OpenLLM, RAG 2차 챗봇 구현",챗봇/RAG,중급,깜짝소리999
+조진선,SK하이닉스,Hygpt를 활용한 TCAD EPM Calculator 개발,개발,중급,cjs6904
+용지현,SK텔레콤,악플보다 무플이 더 무서워!,자동화,중급,메타용용
+김시하,SK텔링크,Private한 나만의 데이터 분석 프로그램,챗봇/RAG,중급,말랑한꽃745
+지홍근,SK텔레콤,국가연구과제 업무처리 방법 자동응답 Chatbot,챗봇/RAG,중급,전자파는상쾌해
+이재형,SK텔링크,ChatGPT&Ollama 활용Outlook RAG Chatbot 구축,챗봇/RAG,중급,보라매뚜벅쵸
+전창국,SK텔레콤,실용성 있는 내부 문서 검색 솔루션,챗봇/RAG,중급,신속한코딩마스터1287
+김혜인,SK텔레콤,챗GPT로 ZEM 브랜드콘텐츠 제안서 작성하기,콘텐츠,중급,heky
+박건태,SK바이오팜,AI 활용 오픈소스 코드 실행(ubiquitination site 예측),자동화,중급,coldtype08
+강준형,SK주식회사 C&C,ChatGPT를 이용한 자녀와 실시간 동화 만들기,일상,초급,소리지르는비버
+원유진,SK텔레콤,업체 개요 조사 챗봇 구현,챗봇/RAG,중급,활발한코딩마스터0427
+방성주,SK텔레콤,PASS 고객센터 챗봇 만들기,챗봇/RAG,중급,활발한코딩천재3017
+김선문,SK 에코플랜트,내가 원하는 저널에서 '관심뉴스' 만 골라서 엑셀로 정리하는 방법,자동화,중급,사울85김안
+양해준,SK텔레콤,Learning Science와 AI를 결합하여 교육 프로그램 개발 사례,콘텐츠,중급,Truebeliev
+김보경,SK에코엔지니어링,RPA를 통한 수입신고 증빙 분류 및 입력 자동화,자동화,중급,BKKIM89
+박세용,SK텔레콤,부동산 자산 면적 검증 (ChatGPT와 파이썬 활용 건축물 대장 발급),자동화,중급,활기찬데이터1098
+안태준,SK주식회사 C&C,AWS 자격증 시험대비 문제풀이 사이트,콘텐츠,중급,Azssi
+김병도,SK하이닉스,자사 DEEPSEEK MODEL에 RAG 적용하기!!,챗봇/RAG,중급,적극적인해파리9283
+이재홍,SK브로드밴드,5분만에 작성하는 사업계획서 초안,프롬프팅,초급,후홍몽
+최호임,SK에코엔지니어링,ChatGPT에게 영작 시키기,일상,초급,bengsang
+윤나은,SK텔레콤,ChatGPT로 여행 계획 세우며 업무 스트레스 해소하기!,일상,초급,활동적인해커9247
+정혜인,SK텔레콤,무엇이든 물어보세요 A to Z,챗봇/RAG,중급,코딩찐따
+양정균,SK트레이딩인터내셔널,Excel의 ETL Tool인 Power Query의 효율적 관리 방안,자동화,중급,활동적인밤하늘5732
+한경흠,SK브로드밴드,"OpenSource를 구축, 배우며 만들어 보는 회의록 요약 서비스",챗봇/RAG,중급,좋아좋아
+신용식,SK텔레콤,Private 5G network Chatbot,챗봇/RAG,중급,sysone011
+조재영,SK온,특허 데이터 분석,데이터분석,중급,상큼한딸기456
+이대연,SK트레이딩인터내셔널,초보아빠의 내 아이를 위한 GPTs,일상,초급,가포리
+장준홍,SK바이오사이언스,날씨에 맞는 옷차림 추천,일상,초급,활동적인코드마스터4172
+장준홍,SK바이오사이언스,ChatGPT를 활용한 냉장고에 남아있는 음식을 활용하는 법,일상,초급,활동적인코드마스터4172
+최재홍,SK주식회사 C&C,여행 분석과 글쓰기,일상,초급,David
+정남수,서비스에이스,python을 이용한 통계 자동화 (해지 유지율 일일보고),자동화,중급,유선CS마케팅_J
+손명빈,SK텔레콤,AI를 접목한 자동 기술 게시글 작성,자동화,중급,cavin
+김혜인,SK텔레콤,AI로 만든 USIM 웹툰 연재한 썰.SSUL,콘텐츠,중급,heky
+최홍석,SK 에코플랜트,내가 필요한 영역에서 전문성 있는 대답을 해주는 도우미,프롬프팅,초급,windchaser
+김혜인,SK텔레콤,AI로 만든 웹툰 연재한 썰.SSUL,콘텐츠,중급,heky
+최상균,SK엔무브,GPT를 이용한 법규 검색 및 이용,프롬프팅,초급,HIBYOK
+박우숙,서비스에이스,리더십 역량 강화를 위한 e-러닝 제작,콘텐츠,중급,활기찬빼빼로
+장용호,SK에코엔지니어링,영어공부하기,일상,초급,AI를파트너로
+이장하,SK아이이테크놀로지,공모전 참여,일상,초급,활발한코딩고수4571
+김민지,SK텔레콤,생성형 AI를 활용한 Enterprise 솔루션 소개 영상 제작,콘텐츠,중급,용감한코딩천재1234
+장준홍,SK바이오사이언스,Chat GPT를 활용한 메뉴 선정,일상,초급,활동적인코드마스터4172
+남소원,SK텔레콤,GPT와 함께하는 아웃룩 메일 읽어와서 첨부파일 정리하기,자동화,중급,활기찬코리아1234
+최기형,SK주식회사 C&C,AI Agent로 블로그 초안 만들기,챗봇/RAG,중급,활발한코딩러9567
+최혜진,SK주식회사 C&C,OpenAI 를 활용한 시를 써주는 챗봇 만들기,일상,초급,지니
+최병일,SK텔레콤,SCM 공급망의 최근 뉴스기사 스크래핑을 통한 뉴스레터 발송 Tool,자동화,중급,BIC
+이건표,SK이노베이션,ChatGPT와 Power Automate를 활용한 업무 자동화,자동화,중급,일잘하고싶다
+서정민,SK텔레콤,칵테일 레시피를 추천해주는 GPTs 만들기,일상,초급,활발한초코2234
+최현진,SK텔레콤,국가별 뉴스 기사 리서치 업무 자동화,자동화,중급,활기찬코딩러9834
+양정균,SK트레이딩인터내셔널,엑셀을 활용한 복잡한 계층형 분석 (Power Query + Pivot),데이터분석,중급,활동적인밤하늘5732
+이서연,SK텔레콤,하나의 콘텐츠를 SNS로 재확산하기,콘텐츠,중급,발빠른코딩보라9032
+김동현,행복나래,사회적 기업 홍보영상 제작하기,콘텐츠,중급,휴~그랜트
+전수빈,SK에너지,"혁신기술실 안전캠페인 영상, 포스터, 스티커 작성",콘텐츠,중급,SP팀 화이팅~
+임은영,SK하이닉스,AI 기반 제조 UI 개발을 통해 Smart Factory 고도화 추진,자동화,중급,best
+정동수,SK하이닉스,ChatGPT(HyGpt)를 통한 반도체 장비 대수 산출 Web개발,자동화,중급,아메들고걷자
+백지선,SK텔레콤,모솔 탈출! 가스라이팅 탈출! 고민상담 master.. 단비같은 AI.,일상,초급,패트로패트로패트로패
+김민주,SK주식회사 C&C,Product Scene Maker: AI로 만드는 맞춤형 상품 배경,콘텐츠,중급,밍
+서정민,SK텔레콤,근로기준법에 대해 조언해주는 노무조무사 GPT,챗봇/RAG,초급,활발한초코2234
+최호임,SK에코엔지니어링,파워포인트 슬라이드 뼈대 잡기,콘텐츠,초급,bengsang
+박승훈,SK텔레콤,ChatGPT로 RPA 초급자가 중급자로 둔갑하기,자동화,중급,베스트초이스
+최재홍,SK주식회사 C&C,PPT 메시지 구성 자동화,콘텐츠,초급,David
+최재홍,SK주식회사 C&C,"OT 시간, 독서, 소비",일상,초급,David
+강민욱,SK가스,"술자리 건배사 쫄지말자 삼행시 GPT로 자신있게!""""",일상,초급,해운대 꿀주먹
+김창은,SK주식회사 C&C,쌓여만 가는 냉장고 속 식재료를 해결해줘,일상,초급,열정적인코드마스터4512
+서호민,SK텔레콤,MBTI 소통 마법사와 퀴즈 팡팡,일상,초급,SmartCona
+최민석,SK텔레콤,공급사 주가 급변동 시 챗GPT가 최신 뉴스 분석하여 메일 자동 송부,자동화,중급,신속한바나나2025
+유수빈,SK텔레콤,문과생도 쉽게! ✨ ChatGPT로 경쟁사 이벤트 실시간 캐치하기 ,자동화,중급,용감한소나무
+김완상,SK텔레콤,산업 기술 분석 및  프레젠테이션 자동화 AI 도구,자동화,중급,신중한코딩마스터5782
+이승현,SK케미칼,생성형 AI 활용 숏폼으로 내부 구성원 교육을?,콘텐츠,초급,용감한하늘1234
+김종식,SK하이닉스,Raw Data 전처리 후 수율 데이터 자동화 코드 구현,자동화,중급,신중한도깨비2947
+김현욱,SK이노베이션,영어 표현 공부하기,일상,초급,신속한코딩덕후4729
+임재윤,SK텔레콤,이제 속지말자! 정말 내가 원하는 맛집 찾기,일상,초급,활발한코딩중독자
+이원탁,SK주식회사 C&C,영어 문법 및 작문 도우미,일상,초급,만랩
+김범조,SK하이닉스,오늘 저녁 뭐 먹지?,일상,초급,에스케이하이닉스
+이다은,SK매직,AI 툴을 활용한 UX 리서치와 퍼소나 설정하기,자동화,중급,책임감이있는푸른별1923
+박장호,SK텔레콤,문서 정보를 병렬로 조회하는 챗봇,챗봇/RAG,초급,피이쓰
+김병두,SK텔레콤,키워드 기반 뉴스 검색 GPTs 및 크롤링 Tool 제작,챗봇/RAG,초급,열정적인바다1234
+김형민,SK하이닉스,"[업무자동화] Data 전처리, 분석, 시각화 자동화",자동화,초급,hmkim
+유해식,SK주식회사 C&C,ChatGPT를 활용해서 수준별 맞춤 교육 컨텐츠 개발,콘텐츠,초급,활발한코딩어2205
+류장수,SK브로드밴드,제안업무에 생성형AI 이미지 활용기,콘텐츠,초급,장수만세2033
+한별이,SK이노베이션,ZIC 윤활유 Advisor 따라잡기,자동화,초급,오모리
+이원준,SK바이오텍,충돌주의 경고표지 제작,콘텐츠,초급,활발한고양이4782
+이성철,SK E&S,생성형 AI를 활용한 제안서 PPT 커버이미지 생성,콘텐츠,초급,에디사마
+박승렬,SK텔레콤,ChatGPT를 활용한 Code Conversion,자동화,초급,신비로운별987
+이성우,SK에코엔지니어링,"설계 문서의 Revision 시, 변경 사항 자동 검색 및 표기",자동화,초급,Sting
+강단,SK텔링크,ChatGPT를 활용한 고객 1:1 문의 응답 자동 템플릿 추천,챗봇/RAG,초급,따뜻한커피4443
+박재옥,SK하이닉스,다변량 측정 데이터의 효율적인 분석을 위한 데이터 분석 코드 작성,데이터분석,중급,막나가는GPT
+최재홍,SK주식회사 C&C,Playlist 분석과 추천,일상,초급,David
+이은진,SK하이닉스,ChatGPT를 활용한 이름 짓기 (작명소가 필요 없음!),일상,초급,성실한문어8713
+김건훈,SK텔레콤,"챗 GPT로 시니어 대화 친구 만들기, 고령화 사회문제 해결!",일상,초급,간짜장
+박한누리,SK하이닉스,생성형 AI를 이용한 Die Level Defect IMG 생성 내재화,데이터분석,중급,활발한코딩덕후4392
+박세용,SK텔레콤,엑셀VBA를 활용한 부동산 자산 간접 실사,자동화,초급,활기찬데이터1098
+김인영,SK매직,미드저니를 활용한 기획의 시각화,콘텐츠,초급,betterworks
+홍승기,SK온,팀장님 감사패 작성,일상,초급,플토
+김진형,SK지오센트릭,"Chat GPT를 활용해 EU 규정 확인, 고객 요구사항 회신 레터 작성",프롬프팅,초급,ActuallyIdid
+오석진,SK브로드밴드,AI을 활용한 광고 이미지 생성,콘텐츠,초급,하늘아기
+김경식,SK텔레콤,여러 개 인터페이스를 한번에 조회하는 정규표현식 만들기,자동화,초급,활발한코딩마스터3452
+최지훈,SK주식회사 C&C,chatgpt 로 여행 비서 만들기,일상,초급,취미활동
+조영재,SK하이닉스,안전한 지게차 사용환경 구축을 통한 사고예방,프롬프팅,초급,어콩이
+김종범,SK텔레콤,(비업무/일상) AI가 그려주는 우리 아이들 잠자리 동화,일상,초급,pgdl
+김지현,SK하이닉스,11주년 장기근속 휴가 일정을 chap GPT로!(나만의 여행상품 제작),일상,초급,빠른코딩마스터4583
+김준호,SK텔레콤,AI 공모전을 AI로 날로 먹기,프롬프팅,초급,활기찬별똥별1234
+이경동,SK브로드밴드,GPT4로 쉽게 작성하는 액셀 자동화 VBA,자동화,초급,브로비동
+김태은,SK텔레콤,모바일신분증 증명사진 활용,콘텐츠,초급,우주소년
+최선호,SK하이닉스,ChatGPT를 활용한 해석 Knowledge 이해,프롬프팅,초급,써니보이
+최병원,SK오앤에스,생산적인 업무를 할 시간이 부족해? 그럼 자동화(RPA)지~,자동화,초급,열정적인코딩2471
+오두진,SK바이오사이언스,AI를 활용한 공정 시간의 과학적 근거 마련하기,프롬프팅,초급,활발한고양이2023
+진기훈,SK텔레콤,X Crawling (AI Frontier 교육),자동화,초급,활발한코딩마스터2038
+이성우,SK텔레콤,Perplexity - 거짓없는 초스피드 기업조사,자동화,초급,라파엘로
+김명우,SK하이닉스,GPT 를 이용한 업무관련 최신 기술 파악,자동화,초급,따스한크리스
+최충열,SK텔레콤,통합국 광케이블 인입 프로젝트,콘텐츠,초급,마루
+하영훈,SK머티리얼즈,ChatGPT4.0 업무 활용 사례,프롬프팅,초급,신을부르는소리1024
+김지현,SK하이닉스,영유다니는 우리애기보다 못한 내 영어회화를 도와줘.....,일상,초급,빠른코딩마스터4583
+이경한,서비스에이스,chat gpt 활용을 통한 업무시간 단축 및 효율화,자동화,초급,호기심많은코드러1234
+최윤석,SK텔레콤,ChatGPT를 활용한 영어 blog 및 news 요약,자동화,초급,무파
+노도형,SK하이닉스,HyGPT를 활용한 이미지 자동 계측 시스템 개발 시간 단축,데이터분석,중급,활동적인코딩마스터1924
+권대근,SK바이오사이언스,통계프로그램 대신 써볼까? 어디까지 해줄 수 있을까?,데이터분석,초급,도리도리
+김우희,SK텔레콤,Gen-AI Art Challenge 기획하고 실행하기!,프롬프팅,초급,활발한코딩초보3472
+손인욱,SK하이닉스,U-NET 으로 예측하는 TEM Guide Image생성,데이터분석,초급,CVAE미분중
+라대원,SK텔레콤,회사에서 신입사원 채용을 위한 공고 문구 작성,콘텐츠,초급,나도달리오
+박세용,SK텔레콤,개떡같이 입력된 주소도 찰떡같이 정리해줘 (회사 부동산 현행화),자동화,초급,활기찬데이터1098
+신수환,SK인천석유화학,환경설비 제출 자료 작성 자동화(엑셀 매크로),자동화,초급,동글
+김수정,SK이노베이션,Chat GPT를 활용한 엑셀 데이터 처리 자동화,자동화,초급,활발한호랑이77
+서희원,SK브로드밴드,ChatGPT의 도움으로 부족한 사례의 SSL인증서 오류 해결,프롬프팅,초급,배고픈코끼리
+임규민,SK텔레콤,AI와 함께 이사를,일상,초급,그대는선물입니다
+이상희,SK텔레콤,생성형 AI를 통한 대 고객 메시지 개선,자동화,초급,ㅇㅅㅎ
+김영관,SK텔레콤,나의 일상 기록을 영어로 완벽하게 표현해주는 AI 정말 정말 놀라워요!!,일상,초급,고산
+김수현,SK바이오사이언스,AI 검색으로 실험 관련 참고 문헌 조사부터 요약까지 한큐에,프롬프팅,초급,가빈
+최성우,SK에너지,30년간 써온 고전적인 방식 이제 탈피합시다!,자동화,초급,태오에르난데스
+윤영수,SK온,AI를 활용한 외관검사 자동화,자동화,초급,활발한코딩천사2309
+임종열,SK텔레콤,주식의 배당금을 자동으로 불러오는 파이썬 코드 생성,일상,초급,빈센트5004
+윤선진,SK텔레콤,내 맘대로 자서전을 만들어 드립니다.,일상,초급,순대볶음
+김영관,SK텔레콤,시도 영어로 번역이 되었네요,일상,초급,고산
+장석훈,SK머티리얼즈,[사과 메세지] 회식 후 만취 상황,일상,초급,쿠크다스바사삭
+배성현,SK텔레콤,상황에 맞게 RM대응을 할 수 있는 조치방법 검색하기,프롬프팅,초급,Custos
+이재홍,SK브로드밴드,10분만에 완성하는 생성형AI로 홍보용 콘텐츠이야기 만들기,콘텐츠,초급,후홍몽
+최현호,SK이노베이션,ChatGPT로 데이터전처리 및 시각화 하기,데이터분석,초급,냠냠
+윤상돈,SK하이닉스,ChatGPT 3.5를 이용한 excel VBA작성,자동화,초급,활발한고양이0427
+성진경,SK하이닉스,왕초보 엑셀에서 AI 사용하기,자동화,초급,진진돌이
+최종현,SK텔레콤,멋진 댓글을 작성하고 싶어요! (베스트셀러 작가라구욧!),일상,초급,닉네임
+한승혜,SK하이닉스,세상에 하나밖에 없는 동화책을 AI로 만들어 아이에게 생일선물하기,콘텐츠,초급,활발한고래
+김임교,SK텔링크,보안뉴스 요약봇 만들기,챗봇/RAG,초급,아이언매니아
+정재영,SK하이닉스,ChatGPT를 활용하여 Program Setup Interlock 개발,자동화,초급,jungjae02
+김성규,SK텔레콤,AI Tool을 활용한 마스코드 이미지 에셋 제작,콘텐츠,초급,무아지경
+박호준,SK텔레콤,Gen-AI Art Challenge GAAC 2탄 참여 결과물 생성,콘텐츠,초급,우보천리999
+김민석,SK텔레콤,ChatGPT python 코딩 활용 경험담,자동화,초급,플레이
+최재홍,SK주식회사 C&C,Google Maps와 여행,일상,초급,David
+허준혁,부산도시가스,뉴스 기사 작성 시 생성형AI 활용,콘텐츠,초급,온몸이다아픔
+하제중,SK텔레콤,Edge AI Accelator를 활용한 IoT 솔루션 활용분야,자동화,초급,portland
+석태원,충청에너지서비스,Chat GPT 데이터분석 Tool을 활용한 '도시가스 판매량 예측',데이터분석,초급,크레마뇽2024
+김강석,SK에너지,RPA로 점심식사(샐러드) 신청 자동화,일상,초급,다이아몬드
+강병호,SK주식회사 C&C,정기적인 기술세션 계획 작성을 위한 ChatGPT 활용,프롬프팅,초급,블루타이거
+최정호,SK텔레콤,올 여름 디스코 소울 펑크로 타임 슬립,일상,초급,ho
+김임교,SK텔링크,개인정보보호 가이드 챗봇 만들기,챗봇/RAG,초급,아이언매니아
+권익현,SK하이닉스,업무효율을 위한 Portal Site 제작,개발,중급,코딩이어려워요
+윤호경,SK바이오사이언스,"ChatGPT 활용 간편 단어사전"" 프롬프트 템플릿""",자동화,초급,백령해병
+임종열,SK텔레콤,ESG 관련 뉴스 수집(600개 기사) -> 결과를 엑셀로 실행,자동화,초급,빈센트5004
+이준호,SK핀크스,"ChatGPT와 Zapier를 활용한 AI 업무 혁신""""",콘텐츠,초급,끊임없는기린7482
+양정균,SK트레이딩인터내셔널,ChatGPT와 함께하는 재고평가 방법 구현 (FIFO/LiFO/...),자동화,초급,활동적인밤하늘5732
+유현주,SK텔레콤,신규 사업발굴의 든든한 파트너 My GPT !!,프롬프팅,초급,신나게놀아볼까?
+임성근,SK바이오사이언스,bing copliot을 이용한 문서 요약 정리,자동화,초급,활동적인코딩천재
+김강석,SK에너지,RPA로 근무시간 입력 자동화,자동화,초급,다이아몬드
+김강석,SK에너지,생성형 Ai 이미지를 통한 홍보자료 생성,콘텐츠,초급,다이아몬드
+김강석,SK에너지,RPA로 출입 신청 시 승인 자동화,자동화,초급,다이아몬드
+김강석,SK에너지,Power BI로 설비관리 시스템 Dashboard 구축,자동화,초급,다이아몬드
+김수정,SK이노베이션,생일 카드도 한번에 쉽게~,일상,초급,활발한호랑이77
+박혜준,SK에너지,파이썬 코드 공부 시 ChatGPT 활용,자동화,초급,smart하게 만들어줘
+김주섭,SK하이닉스,계약 Data 기반으로 월별 소요 비용 자동 계산 프로그램 작성,개발,중급,쉼터
+김문선,SK하이닉스,GPT를 활용한 표준 용어 점검 개선,자동화,초급,신중한레몬3427
+한승기,SK하이닉스,코파일럿을 이용한 기술리포트 연구개발 시사점 도출,프롬프팅,초급,강인한합리주의자
+고영후,SK텔레콤,기업 소개 보고서 생성,챗봇/RAG,초급,ETNA
+최진선,SK에코엔지니어링,내가 사는 지역에서 우리 가족의 삶 이미지 생성,콘텐츠,초급,호기심많은코코폴리3125
+박희승,SK에코엔지니어링,ChatGPT를 활용한 프로젝트 성과품 작성,프롬프팅,초급,활발한데이터8207
+오상훈,SK하이닉스,Streamlit 웹앱으로 데이터 분석 및 시각화하여 업무 효율성 높이기,개발,중급,활기찬코끼리3275
+윤효리,SK텔레콤,YouTube 콘텐츠 Title&Description 작성 프로그램,개발,중급,yorijori
+김민수,SK하이닉스,Spare Part 재고 관리 및 안전재고 확보 업무 효율화,자동화,초급,냐냐노냐
+조태현,SK이노베이션,연구노트 관리 규정 가이드 작성 및 응답 챗봇,챗봇/RAG,초급,푸른사막777
+김선익,SK텔레콤,이제 원하는 코드는  Chat GTP로  뚝딱 ~  HeatMap 만들기,자동화,초급,신중한밤하늘8472
+윤호경,SK바이오사이언스,"ChatGPT 국어 맞춤법/띄어쓰기 검사"" 프롬프트 템플릿""",프롬프팅,초급,백령해병
+정현준,SK하이닉스,생성형 AI를 도입해서 투자수익 높여보기,일상,초급,비트코인
+이지수,SK하이닉스,전문 디자이너없이 NO저작권 로고/단체복 제작하기,일상,초급,코딩하는고라니
+박정환,SK텔레콤,이미지분석으로 안전을 진단하여 안전사고를 예방,데이터분석,초급,활발한코마스터8742
+장준영,SK케미칼,ChatGPT를 활용한 엑셀(VBA) & SAP ERP 데이터 등록,자동화,초급,blue0082
+김진,SK텔레콤,간단한 스크립트는 혼자 짜주는 요즘 챗GPT 개발,챗봇/RAG,초급,singleheart
+박용규,SK텔레콤,총액매출? 순액매출? AI가 알려드립니다!,개발,중급,피터린치
+차재강,SK하이닉스,chatGPT를 활용한 코딩 작업 효율화 사례,자동화,초급,활발한기술자789
+양정대,SK어스온,생성형 AI(ChatGPT)를 활용한 Digital Resume제작,개발,중급,jdyang88
+정세용,SK하이닉스,Inline 진행 source 및 계측 data 정리 및 시각화 자동화,자동화,초급,2066151
+박세용,SK텔레콤,"현장도 안가고, 돈도 안쓰고, 1주일만에 부동산 자산 주소 현행화 완료",개발,중급,활기찬데이터1098
+전창국,SK텔레콤,이미지 해석 앱,개발,초급,신속한코딩마스터1287
+정수영,부산도시가스,스마트 안전 파트너 챗봇 (법규/규정/절차 챗봇),챗봇/RAG,초급,AI초보
+이명준,SK하이닉스,사내 GPT 를 활용하여 Python Code 최적화 및 속도개선한 사례,자동화,초급,산삼크런치
+임채완,SK하이닉스,인공지능과 함께하는 미래' 주제의 이미지 생성,콘텐츠,초급,활동적인토끼6578
+이동현,SK텔레콤,엑셀 자동 필터링 웹 구현하기 (점검이 필요한 공사장 자동 발췌),개발,초급,라떼병장
+은선우,SK케미칼,생성형 AI를 이용한 영입구성원 과정 과제 수행,자동화,초급,지혜로운고슴도치
+강시형,SK텔레콤,TOEIC 공부를 쉽게 해주는 GPT,일상,초급,핼리포터
+박홍령,SK하이닉스,Verilog 코딩 - LUT Generate 자동화,자동화,초급,발빠른호랑이9812
+이상화,SK텔레콤,여름 휴가 계획 세우기,일상,초급,용감한코드천사3421
+정성훈,SK이노베이션,Playground를 이용한 외국어 역량 향상,일상,초급,lll
+고준석,SK텔레콤,생성형 AI 활용 신입 구성원 전문 지식 습득 및 AI 지식 자산화,콘텐츠,초급,마이쏘니
+이지훈,SK온,생성형 AI를 통한 경제 분석,데이터분석,초급,여우
+김진현,SK하이닉스,HTML 하나도 몰라도 WEB Page 만들기,개발,초급,활동적인코딩맨
+한별이,SK이노베이션,그린워싱 리스크 검토 위한 GPTs 활용: Greewash Checker,챗봇/RAG,초급,오모리
+안병섭,SK 에코플랜트,"AI 기술로 발파진동 예측하고, 터널 설계 자동화",프롬프팅,초급,에코abs
+조국일,SK하이닉스,안전보건교육의 해결사: 생성형 AI로 정기안전보건 시험 통과하기,챗봇/RAG,초급,Charlie
+우창진,SK텔레콤,내가 좋아하는 노래들과 같은 코드 진행을 하는 노래 찾아보기,일상,초급,보노보노브라더
+이태우,SK하이닉스,Python 비동기 코드 도움받아서 비동기압축 함수 만들기!,개발,초급,활발한코스모0347
+장정국,SK텔레콤,"홍수대비 안전 포스터,표어,홍보송 제작",콘텐츠,초급,명확한도도5221
+안예진,SK텔레콤,생성형 AI를 활용한 쉬운 특정분야 자료 리서치 방법 3가지,챗봇/RAG,초급,캐서린
+김선웅,SK하이닉스,장비 생산성 분석을 위한 데이터 분석 Tool 구현,데이터분석,초급,활발한기술자3521
+김홍준,SK하이닉스,ChatGPT를 활용한 Layout Editor 개발,개발,초급,히게
+금성환,SK하이닉스,Manual 관리하던 Data를 AI를 통해 자동화 관리하기!,개발,초급,마마마바바
+배수형,SK하이닉스,ChatGPT를 통한 화학반응 예측,데이터분석,초급,꿈과희망
+남궁윤지,SK바이오사이언스,Perplexity로 식당 추천,일상,초급,겸손한블루파이5623
+이대식,SK주식회사 C&C,"ChatGPT, 라이선스 취득 학습 활용 사례",콘텐츠,초급,행복토리
+송현규,SK이노베이션,Safety Talk 주제 탐색,콘텐츠,초급,SHE 꿈나무
+이재홍,SK브로드밴드,10분만에 완성하는 생성형AI로 광고용 콘티 만들기,콘텐츠,초급,후홍몽
