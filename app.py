@@ -28,6 +28,11 @@ df = df.drop(columns=['mySUNI ID'], errors='ignore')
 # 스타일 설정
 st.markdown("""
     <style>
+    .main-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+    }
     .main-title {
         font-size: 2.5rem;
         font-weight: bold;
@@ -59,6 +64,9 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# 메인 컨테이너 시작
+st.markdown('<div class="main-container">', unsafe_allow_html=True)
+
 # 헤더 및 설명
 st.markdown('<div class="main-title">생성형 AI 공모전 사례 분석 서비스</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">이 서비스는 생성형 AI 공모전의 사례제출 현황을 분석하고 인사이트를 제공하기 위해 제작되었습니다.</div>', unsafe_allow_html=True)
@@ -72,7 +80,7 @@ display_option = st.radio("표시 방식 선택:", ["표", "그래프"], key='di
 st.subheader("데이터 분석")
 
 def plot_barh_with_labels(counts, xlabel, ylabel, title):
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 6), dpi=300)  # dpi를 300으로 설정하여 고화질 그래프 생성
     ax.barh(counts.index, counts.values)
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
@@ -80,6 +88,7 @@ def plot_barh_with_labels(counts, xlabel, ylabel, title):
     for i, v in enumerate(counts.values):
         ax.text(v + 0.1, i, str(v), va='center')
     ax.invert_yaxis()
+    plt.tight_layout()
     return fig
 
 def show_data(data, title, x_label):
@@ -89,30 +98,38 @@ def show_data(data, title, x_label):
         fig = plot_barh_with_labels(data, x_label, '', title)
         st.pyplot(fig)
 
-if st.button("회사별 건수"):
-    company_counts = df['Company'].value_counts().sort_values(ascending=False)
-    show_data(company_counts, '회사별 건수', '건수')
+# 버튼 상태 유지를 위한 세션 상태 초기화
+if 'button_clicked' not in st.session_state:
+    st.session_state.button_clicked = None
 
-if st.button("카테고리별 건수"):
-    category_counts = df['Category'].value_counts().sort_values(ascending=False)
-    show_data(category_counts, '카테고리별 건수', '건수')
+# 데이터 분석 버튼들
+buttons = {
+    "회사별 건수": lambda: df['Company'].value_counts().sort_values(ascending=False),
+    "카테고리별 건수": lambda: df['Category'].value_counts().sort_values(ascending=False),
+    "수준별 건수": lambda: df['Level'].value_counts().sort_values(ascending=False)
+}
 
-if st.button("수준별 건수"):
-    level_counts = df['Level'].value_counts().sort_values(ascending=False)
-    show_data(level_counts, '수준별 건수', '건수')
+for button_name, data_func in buttons.items():
+    if st.button(button_name) or st.session_state.button_clicked == button_name:
+        st.session_state.button_clicked = button_name
+        data = data_func()
+        show_data(data, f'{button_name}', '건수')
 
-if st.button("주요 키워드 추출"):
+if st.button("주요 키워드 추출") or st.session_state.button_clicked == "주요 키워드 추출":
+    st.session_state.button_clicked = "주요 키워드 추출"
     keywords = df['Category'].dropna().apply(lambda x: re.findall(r'\b\w+\b', str(x))).sum()
     keyword_counts = Counter(keywords)
     top_keywords = keyword_counts.most_common(10)
     st.write(pd.DataFrame(top_keywords, columns=['키워드', '빈도수']))
 
-if st.button("Wordcloud 만들기"):
+if st.button("Wordcloud 만들기") or st.session_state.button_clicked == "Wordcloud 만들기":
+    st.session_state.button_clicked = "Wordcloud 만들기"
     text = ' '.join(df['Title'].dropna().astype(str))
-    wordcloud = WordCloud(width=800, height=400, background_color='white', font_path=font_path).generate(text)
-    fig, ax = plt.subplots(figsize=(10, 5))
+    wordcloud = WordCloud(width=1600, height=800, background_color='white', font_path=font_path).generate(text)
+    fig, ax = plt.subplots(figsize=(10, 5), dpi=300)  # dpi를 300으로 설정하여 고화질 워드클라우드 생성
     ax.imshow(wordcloud, interpolation='bilinear')
     ax.axis('off')
+    plt.tight_layout()
     st.pyplot(fig)
 
 # 상세 검색 기능
@@ -125,3 +142,6 @@ if search_keyword:
     ]
     st.write(f"총 {filtered_df.shape[0]}건의 사례가 검색되었습니다.")
     st.dataframe(filtered_df[['Company', 'Title', 'Category', 'Level']])
+
+# 메인 컨테이너 종료
+st.markdown('</div>', unsafe_allow_html=True)
