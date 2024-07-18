@@ -11,7 +11,6 @@ def load_data():
     url = "https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv"
     df = pd.read_csv(url)
     df = df.rename(columns={'사전평가': '난이도'})
-    # 필요한 열에 대해서만 NaN 값 처리
     df = df.dropna(subset=['회사', '주제', '난이도'])
     return df
 
@@ -24,7 +23,6 @@ df = load_data()
 # 사이드바 필터
 st.sidebar.title("mySUNI")
 st.sidebar.header("데이터 필터")
-
 selected_company = st.sidebar.multiselect("회사 선택", options=sorted(df['회사'].unique()), default=[])
 selected_topic = st.sidebar.multiselect("주제 선택", options=sorted(df['주제'].unique()), default=[])
 selected_difficulty = st.sidebar.selectbox("난이도 선택", options=['전체'] + sorted(df['난이도'].unique().tolist()))
@@ -50,10 +48,13 @@ col4.metric("난이도 분포", ', '.join(filtered_df['난이도'].value_counts(
 st.header("주제별 분석")
 topic_counts = filtered_df['주제'].value_counts()
 fig_topic = px.pie(values=topic_counts.values, names=topic_counts.index, title='주제별 프로젝트 분포')
+fig_topic.update_traces(textposition='inside', textinfo='percent+label', textfont_size=14)
 fig_topic.update_layout(
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
-    font_color='white'
+    font=dict(color='white', size=16),
+    title_font=dict(size=24),
+    legend_font=dict(size=14)
 )
 st.plotly_chart(fig_topic, use_container_width=True)
 
@@ -64,7 +65,8 @@ fig_company = px.bar(x=company_counts.index, y=company_counts.values, title='회
 fig_company.update_layout(
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
-    font_color='white',
+    font=dict(color='white', size=16),
+    title_font=dict(size=24),
     xaxis_title="회사",
     yaxis_title="프로젝트 수"
 )
@@ -78,15 +80,15 @@ st.dataframe(filtered_df, use_container_width=True)
 st.markdown("""
 <style>
     .stApp {
-        background-color: #2E2E2E;
+        background-color: #1E1E1E;
         color: white;
     }
     .stHeader {
-        background-color: #1E1E1E;
+        background-color: #2E2E2E;
         color: white;
     }
     .stSidebar {
-        background-color: #1E1E1E;
+        background-color: #2E2E2E;
         color: white;
     }
     .stDataFrame {
@@ -96,6 +98,15 @@ st.markdown("""
     .stSelectbox, .stMultiSelect {
         background-color: #3E3E3E;
         color: white;
+    }
+    .stMarkdown, .stHeader, .stMetric {
+        font-size: 18px !important;
+    }
+    .stMetric .metric-value {
+        font-size: 24px !important;
+    }
+    h1, h2, h3 {
+        font-size: 32px !important;
     }
 </style>
 """, unsafe_allow_html=True)
