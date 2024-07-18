@@ -5,12 +5,14 @@ import plotly.express as px
 # 페이지 설정
 st.set_page_config(page_title="mySUNI 생성형 AI사례 공모전 분석", layout="wide")
 
-# 데이터 로드
+# 데이터 로드 및 전처리
 @st.cache_data
 def load_data():
     url = "https://raw.githubusercontent.com/chanrran/2024icheonforum/main/Caselist_240718.csv"
     df = pd.read_csv(url)
     df = df.rename(columns={'사전평가': '난이도'})
+    # NaN 값 제거
+    df = df.dropna()
     return df
 
 # 메인 페이지
@@ -23,9 +25,9 @@ df = load_data()
 st.sidebar.title("mySUNI")
 st.sidebar.header("데이터 필터")
 
-selected_company = st.sidebar.multiselect("회사 선택", options=df['회사'].unique(), default=[])
-selected_topic = st.sidebar.multiselect("주제 선택", options=df['주제'].unique(), default=[])
-selected_difficulty = st.sidebar.selectbox("난이도 선택", options=['전체'] + list(df['난이도'].unique()))
+selected_company = st.sidebar.multiselect("회사 선택", options=sorted(df['회사'].unique()), default=[])
+selected_topic = st.sidebar.multiselect("주제 선택", options=sorted(df['주제'].unique()), default=[])
+selected_difficulty = st.sidebar.selectbox("난이도 선택", options=['전체'] + sorted(df['난이도'].unique().tolist()))
 
 # 데이터 필터링
 filtered_df = df
@@ -48,31 +50,52 @@ col4.metric("난이도 분포", ', '.join(filtered_df['난이도'].value_counts(
 st.header("주제별 분석")
 topic_counts = filtered_df['주제'].value_counts()
 fig_topic = px.pie(values=topic_counts.values, names=topic_counts.index, title='주제별 프로젝트 분포')
+fig_topic.update_layout(
+    plot_bgcolor='rgba(0,0,0,0)',
+    paper_bgcolor='rgba(0,0,0,0)',
+    font_color='white'
+)
 st.plotly_chart(fig_topic, use_container_width=True)
 
 # 회사별 분석
 st.header("회사별 분석")
 company_counts = filtered_df['회사'].value_counts()
 fig_company = px.bar(x=company_counts.index, y=company_counts.values, title='회사별 프로젝트 수')
+fig_company.update_layout(
+    plot_bgcolor='rgba(0,0,0,0)',
+    paper_bgcolor='rgba(0,0,0,0)',
+    font_color='white',
+    xaxis_title="회사",
+    yaxis_title="프로젝트 수"
+)
 st.plotly_chart(fig_company, use_container_width=True)
 
 # 프로젝트 목록
 st.header("프로젝트 목록")
-st.dataframe(filtered_df)
+st.dataframe(filtered_df, use_container_width=True)
 
 # CSS 스타일링
 st.markdown("""
 <style>
-.stApp {
-    background-color: #f5f5f5;
-}
-.stHeader {
-    background-color: #00A6D4;
-    color: white;
-}
-.stSidebar {
-    background-color: #003A59;
-    color: white;
-}
+    .stApp {
+        background-color: #2E2E2E;
+        color: white;
+    }
+    .stHeader {
+        background-color: #1E1E1E;
+        color: white;
+    }
+    .stSidebar {
+        background-color: #1E1E1E;
+        color: white;
+    }
+    .stDataFrame {
+        background-color: #3E3E3E;
+        color: white;
+    }
+    .stSelectbox, .stMultiSelect {
+        background-color: #3E3E3E;
+        color: white;
+    }
 </style>
 """, unsafe_allow_html=True)
