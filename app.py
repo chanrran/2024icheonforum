@@ -4,12 +4,11 @@ from collections import Counter
 import re
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from matplotlib import font_manager, rc
+from matplotlib import rcParams
 
 # 한글 폰트 설정
-font_path = '/usr/share/fonts/truetype/nanum/NanumGothic.ttf'  # 나눔고딕 폰트 경로
-font = font_manager.FontProperties(fname=font_path).get_name()
-rc('font', family=font)
+rcParams['font.family'] = 'sans-serif'
+rcParams['font.sans-serif'] = ['Arial Unicode MS', 'DejaVu Sans', 'Arial']
 
 # 파일 업로드
 uploaded = st.file_uploader("파일을 업로드하세요", type=["csv"])
@@ -81,7 +80,7 @@ if uploaded is not None:
     # Wordcloud 만들기
     if st.button("Wordcloud 만들기"):
         text = ' '.join(df['Title'].dropna().astype(str))
-        wordcloud = WordCloud(width=800, height=400, background_color='white', font_path=font_path).generate(text)
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
         fig, ax = plt.subplots()
         ax.imshow(wordcloud, interpolation='bilinear')
         ax.axis('off')
