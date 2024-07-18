@@ -5,11 +5,11 @@ import re
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from matplotlib import font_manager, rc
+import urllib.request
 
 # GitHub에서 폰트 파일 다운로드 및 설정
 font_url = 'https://raw.githubusercontent.com/chanrran/2024icheonforum/main/NanumGothic-Regular.ttf'
 font_path = 'NanumGothic-Regular.ttf'
-import urllib.request
 urllib.request.urlretrieve(font_url, font_path)
 
 font_manager.fontManager.addfont(font_path)
@@ -50,18 +50,22 @@ with col1:
     selected_button = st.session_state.get('selected_button', None)
 
     # 버튼 클릭 상태 유지 및 스타일 변경
+    def plot_barh_with_labels(ax, counts, xlabel, ylabel, title):
+        ax.barh(counts.index, counts.values)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        ax.set_title(title)
+        for i in ax.patches:
+            ax.text(i.get_width() + .3, i.get_y() + .3, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
+        ax.invert_yaxis()
+
     if selected_button == "company":
         company_counts = df['Company'].value_counts().sort_values(ascending=False)
         if display_option == "표":
             st.write(company_counts)
         elif display_option == "그래프":
-            fig, ax = plt.subplots()
-            ax.barh(company_counts.index, company_counts.values)
-            ax.set_xlabel('건수')
-            ax.set_ylabel('Company')
-            ax.set_title('Company별 건수')
-            for i in ax.patches:
-                ax.text(i.get_width() + .3, i.get_y() + .31, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
+            fig, ax = plt.subplots(figsize=(10, 8))
+            plot_barh_with_labels(ax, company_counts, '건수', 'Company', 'Company별 건수')
             st.pyplot(fig)
 
     if selected_button == "category":
@@ -69,13 +73,8 @@ with col1:
         if display_option == "표":
             st.write(category_counts)
         elif display_option == "그래프":
-            fig, ax = plt.subplots()
-            ax.barh(category_counts.index, category_counts.values)
-            ax.set_xlabel('건수')
-            ax.set_ylabel('카테고리')
-            ax.set_title('카테고리별 건수')
-            for i in ax.patches:
-                ax.text(i.get_width() + .3, i.get_y() + .31, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
+            fig, ax = plt.subplots(figsize=(10, 8))
+            plot_barh_with_labels(ax, category_counts, '건수', '카테고리', '카테고리별 건수')
             st.pyplot(fig)
 
     if selected_button == "level":
@@ -83,12 +82,8 @@ with col1:
         if display_option == "표":
             st.write(level_counts)
         elif display_option == "그래프":
-            fig, ax = plt.subplots()
-            ax.barh(level_counts.index, level_counts.values)
-            ax.set_xlabel('수준')
-            ax.set_ylabel('건수')
-            ax.set_title('수준별 건수')
-            plt.xticks(rotation=0)
+            fig, ax = plt.subplots(figsize=(10, 8))
+            plot_barh_with_labels(ax, level_counts, '건수', '수준', '수준별 건수')
             st.pyplot(fig)
 
 # 주요 키워드 추출
