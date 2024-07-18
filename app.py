@@ -38,6 +38,7 @@ st.markdown(f"""
             background-color: #34495e;
             padding: 20px;
             border-radius: 10px;
+            margin-top: -20px; /* 옵션 위의 비어있는 도형 제거 */
         }}
         .button-container {{
             display: flex;
@@ -137,3 +138,14 @@ if st.button("Wordcloud 만들기"):
     ax.imshow(wordcloud, interpolation='bilinear')
     ax.axis('off')
     st.pyplot(fig)
+
+# 상세 검색 기능
+st.subheader("상세 검색")
+search_keyword = st.text_input("검색어를 입력하세요 (키워드, 회사명, 주제, 수준):")
+
+if search_keyword:
+    filtered_df = df[
+        df.apply(lambda row: row.astype(str).str.contains(search_keyword, case=False).any(), axis=1)
+    ]
+    st.write(f"총 {filtered_df.shape[0]}건의 사례가 검색되었습니다.")
+    st.dataframe(filtered_df)
