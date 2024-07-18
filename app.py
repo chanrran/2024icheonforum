@@ -3,6 +3,7 @@ import streamlit as st
 from collections import Counter
 import re
 import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 
 # 파일 업로드
 uploaded = st.file_uploader("파일을 업로드하세요", type=["csv"])
@@ -11,59 +12,68 @@ if uploaded is not None:
     # CSV 파일 로드
     df = pd.read_csv(uploaded)
     
-    # 데이터프레임 내용 출력
-    st.write(df.head(10))
+    # 데이터 요약
+    st.write(f"총 {df.shape[0]}건의 데이터가 확인되었습니다.")
 
-    # 열 이름을 적절히 설정 (필요한 경우)
-    df.columns = ['Company', 'Title', 'Category', 'Level'] + [f'Unnamed: {i}' for i in range(len(df.columns) - 4)]
+    # 표/그래프 선택 콤보박스
+    display_option = st.selectbox("표/그래프 선택", ["표", "그래프"])
 
-    # 데이터프레임 열 이름 출력
-    st.write("수정된 열 이름:", df.columns.tolist())
-
-    # 필요한 열이 있는지 확인
-    if 'Company' in df.columns and 'Title' in df.columns and 'Category' in df.columns and 'Level' in df.columns:
-        # 회사별 건수
+    # 회사별 건수
+    if st.button("회사별 건수"):
         company_counts = df['Company'].value_counts().sort_values(ascending=False)
+        if display_option == "표":
+            st.write(company_counts)
+        elif display_option == "그래프":
+            fig, ax = plt.subplots()
+            ax.barh(company_counts.index, company_counts.values)
+            ax.set_xlabel('건수')
+            ax.set_ylabel('회사')
+            ax.set_title('회사별 건수')
+            for i in ax.patches:
+                ax.text(i.get_width() + .3, i.get_y() + .31, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
+            st.pyplot(fig)
 
-        # 수준별 건수
-        level_counts = df['Level'].value_counts()
+    # 카테고리별 건수
+    if st.button("카테고리별 건수"):
+        category_counts = df['Category'].value_counts().sort_values(ascending=False)
+        if display_option == "표":
+            st.write(category_counts)
+        elif display_option == "그래프":
+            fig, ax = plt.subplots()
+            ax.barh(category_counts.index, category_counts.values)
+            ax.set_xlabel('건수')
+            ax.set_ylabel('카테고리')
+            ax.set_title('카테고리별 건수')
+            for i in ax.patches:
+                ax.text(i.get_width() + .3, i.get_y() + .31, str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
+            st.pyplot(fig)
 
-        # 키워드 추출 함수
-        def extract_keywords(text):
-            words = re.findall(r'\b\w+\b', str(text))
-            return words
+    # 수준별 건수
+    if st.button("수준별 건수"):
+        level_counts = df['Level'].value_counts().sort_values(ascending=False)
+        if display_option == "표":
+            st.write(level_counts)
+        elif display_option == "그래프":
+            fig, ax = plt.subplots()
+            ax.bar(level_counts.index, level_counts.values)
+            ax.set_xlabel('수준')
+            ax.set_ylabel('건수')
+            ax.set_title('수준별 건수')
+            plt.xticks(rotation=0)
+            st.pyplot(fig)
 
-        # 모든 카테고리에서 키워드 추출 (NaN 값 제거)
-        keywords = df['Category'].dropna().apply(extract_keywords).sum()
+    # 주요 키워드 추출
+    if st.button("주요 키워드 추출"):
+        keywords = df['Category'].dropna().apply(lambda x: re.findall(r'\b\w+\b', str(x))).sum()
         keyword_counts = Counter(keywords)
-
-        # 상위 10개 키워드
         top_keywords = keyword_counts.most_common(10)
-
-        # Streamlit 대시보드
-        st.title('데이터 분석 대시보드')
-
-        st.subheader('Company별 건수')
-        fig, ax = plt.subplots()
-        ax.barh(company_counts.index, company_counts.values)
-        ax.set_xlabel('건수')
-        ax.set_ylabel('Company')
-        ax.set_title('Company별 건수')
-        for i in ax.patches:
-            ax.text(i.get_width() + .3, i.get_y() + .31, 
-                    str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
-        st.pyplot(fig)
-
-        st.subheader('수준별 건수')
-        fig, ax = plt.subplots()
-        ax.bar(level_counts.index, level_counts.values)
-        ax.set_xlabel('수준')
-        ax.set_ylabel('건수')
-        ax.set_title('수준별 건수')
-        plt.xticks(rotation=0)
-        st.pyplot(fig)
-
-        st.subheader('카테고리별 키워드 분석')
         st.write(pd.DataFrame(top_keywords, columns=['키워드', '빈도수']))
-    else:
-        st.error("CSV 파일에 필요한 열(Company, Title, Category, Level)이 없습니다.")
+
+    # Wordcloud 만들기
+    if st.button("Wordcloud 만들기"):
+        text = ' '.join(df['Title'].dropna().astype(str))
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+        fig, ax = plt.subplots()
+        ax.imshow(wordcloud, interpolation='bilinear')
+        ax.axis('off')
+        st.pyplot(fig)
