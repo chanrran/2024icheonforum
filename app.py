@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from collections import Counter
 
 # 페이지 설정
 st.set_page_config(page_title="mySUNI 생성형 AI사례 공모전 분석", layout="wide")
@@ -63,8 +66,8 @@ fig_topic.update_layout(
     paper_bgcolor='rgba(0,0,0,0)',
     font=dict(family="Nanum Gothic", color='white', size=16),
     title_font=dict(family="Nanum Gothic", size=24),
-    width=1000,
-    height=1000
+    width=500,
+    height=500
 )
 st.plotly_chart(fig_topic, use_container_width=True)
 
@@ -76,8 +79,8 @@ fig_company = go.Figure(data=[
         x=company_counts.index, 
         y=company_counts.values,
         text=company_counts.values,
-        textposition='auto',
-        marker_color='lightblue'
+        textposition='outside',
+        marker_color='skyblue'
     )
 ])
 fig_company.update_layout(
@@ -91,11 +94,44 @@ fig_company.update_layout(
 )
 st.plotly_chart(fig_company, use_container_width=True)
 
-# 전체 프로젝트 목록
-st.header("전체 프로젝트 목록")
+# 주요 키워드 분석
+st.header("주요 키워드 분석")
+all_words = ' '.join(filtered_df['주제']).split()
+word_count = Counter(all_words)
+top_10_words = dict(word_count.most_common(10))
+
+fig_keywords = go.Figure(data=[
+    go.Bar(
+        x=list(top_10_words.values()),
+        y=list(top_10_words.keys()),
+        orientation='h',
+        marker_color='lightgreen'
+    )
+])
+fig_keywords.update_layout(
+    title='주요 키워드 Top 10',
+    plot_bgcolor='rgba(0,0,0,0)',
+    paper_bgcolor='rgba(0,0,0,0)',
+    font=dict(family="Nanum Gothic", color='white', size=16),
+    title_font=dict(family="Nanum Gothic", size=24),
+    xaxis_title="빈도수",
+    yaxis_title="키워드"
+)
+st.plotly_chart(fig_keywords, use_container_width=True)
+
+# 워드 클라우드
+st.header("워드 클라우드")
+wordcloud = WordCloud(width=800, height=400, background_color='white', font_path='/usr/share/fonts/truetype/nanum/NanumGothic.ttf').generate(' '.join(filtered_df['주제']))
+fig, ax = plt.subplots(figsize=(10, 5))
+ax.imshow(wordcloud, interpolation='bilinear')
+ax.axis('off')
+st.pyplot(fig)
+
+# 프로젝트 List
+st.header("프로젝트 List")
 st.dataframe(filtered_df.reset_index(drop=True), use_container_width=True)
 
-# CSS 스타일링
+# CSS 스타일링 (이전과 동일)
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
