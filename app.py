@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+from streamlit_plotly_events import plotly_events
 
 # 페이지 설정
 st.set_page_config(page_title="mySUNI 생성형 AI사례 공모전 분석", layout="wide")
@@ -23,15 +25,22 @@ df = load_data()
 # 사이드바 필터
 st.sidebar.title("mySUNI")
 st.sidebar.header("데이터 필터")
-selected_company = st.sidebar.multiselect("회사 선택", options=sorted(df['회사'].unique()), default=[])
-selected_topic = st.sidebar.multiselect("주제 선택", options=sorted(df['주제'].unique()), default=[])
+
+# 회사 선택 (전체 옵션 추가)
+all_companies = ['전체'] + sorted(df['회사'].unique().tolist())
+selected_company = st.sidebar.multiselect("회사 선택", options=all_companies, default=['전체'])
+
+# 주제 선택 (전체 옵션 추가)
+all_topics = ['전체'] + sorted(df['주제'].unique().tolist())
+selected_topic = st.sidebar.multiselect("주제 선택", options=all_topics, default=['전체'])
+
 selected_difficulty = st.sidebar.selectbox("난이도 선택", options=['전체'] + sorted(df['난이도'].unique().tolist()))
 
 # 데이터 필터링
 filtered_df = df
-if selected_company:
+if '전체' not in selected_company:
     filtered_df = filtered_df[filtered_df['회사'].isin(selected_company)]
-if selected_topic:
+if '전체' not in selected_topic:
     filtered_df = filtered_df[filtered_df['주제'].isin(selected_topic)]
 if selected_difficulty != '전체':
     filtered_df = filtered_df[filtered_df['난이도'] == selected_difficulty]
@@ -50,35 +59,87 @@ topic_counts = filtered_df['주제'].value_counts()
 fig_topic = px.pie(values=topic_counts.values, names=topic_counts.index, title='주제별 프로젝트 분포')
 fig_topic.update_traces(textposition='inside', textinfo='percent+label', textfont_size=14)
 fig_topic.update_layout(
+    showlegend=False,
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
-    font=dict(color='white', size=16),
-    title_font=dict(size=24),
-    legend_font=dict(size=14)
+    font=dict(family="Nanum Gothic", color='white', size=16),
+    title_font=dict(family="Nanum Gothic", size=24),
+    width=1000,  # 너비를 2배로 증가
+    height=1000  # 높이를 2배로 증가
 )
 st.plotly_chart(fig_topic, use_container_width=True)
+
+# 클릭한 주제 저장
+clicked_topic = st.session_state.get('clicked_topic', None)
+if 'clicked_topic' not in st.session_state:
+    st.session_state.clicked_topic = None
+
+# 주제 클릭 이벤트 처리
+selected_points = plotly_events(fig_topic, click_event=True)
+if selected_points:
+    clicked_topic = selected_points[0]['label']
+    st.session_state.clicked_topic = clicked_topic
 
 # 회사별 분석
 st.header("회사별 분석")
 company_counts = filtered_df['회사'].value_counts()
-fig_company = px.bar(x=company_counts.index, y=company_counts.values, title='회사별 프로젝트 수')
+fig_company = go.Figure(data=[
+    go.Bar(
+        x=company_counts.index, 
+        y=company_counts.values,
+        text=company_counts.values,
+        textposition='auto',
+        marker_color='lightblue'
+    )
+])
 fig_company.update_layout(
+    title='회사별 프로젝트 수',
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
-    font=dict(color='white', size=16),
-    title_font=dict(size=24),
+    font=dict(family="Nanum Gothic", color='white', size=16),
+    title_font=dict(family="Nanum Gothic", size=24),
     xaxis_title="회사",
     yaxis_title="프로젝트 수"
 )
 st.plotly_chart(fig_company, use_container_width=True)
 
-# 프로젝트 목록
-st.header("프로젝트 목록")
-st.dataframe(filtered_df, use_container_width=True)
+# 클릭한 회사 저장
+clicked_company = st.session_state.get('clicked_company', None)
+if 'clicked_company' not in st.session_state:
+    st.session_state.clicked_company = None
+
+# 회사 클릭 이벤트 처리
+selected_points = plotly_events(fig_company, click_event=True)
+if selected_points:
+    clicked_company = selected_points[0]['x']
+    st.session_state.clicked_company = clicked_company
+
+# 선택된 데이터 표시
+st.header("선택된 프로젝트 목록")
+if st.session_state.clicked_topic:
+    selected_df = filtered_df[filtered_df['주제'] == st.session_state.clicked_topic]
+    st.write(f"선택된 주제: {st.session_state.clicked_topic}")
+    st.dataframe(selected_df.reset_index(drop=True), use_container_width=True)
+elif st.session_state.clicked_company:
+    selected_df = filtered_df[filtered_df['회사'] == st.session_state.clicked_company]
+    st.write(f"선택된 회사: {st.session_state.clicked_company}")
+    st.dataframe(selected_df.reset_index(drop=True), use_container_width=True)
+else:
+    st.write("파이 차트나 막대 그래프를 클릭하여 세부 정보를 확인하세요.")
+
+# 전체 프로젝트 목록
+st.header("전체 프로젝트 목록")
+st.dataframe(filtered_df.reset_index(drop=True), use_container_width=True)
 
 # CSS 스타일링
 st.markdown("""
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+    * {
+        font-family: 'Nanum Gothic', sans-serif !important;
+    }
+
     .stApp {
         background-color: #1E1E1E;
         color: white;
