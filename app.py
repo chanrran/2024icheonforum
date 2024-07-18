@@ -14,7 +14,7 @@ if uploaded is not None:
     # 데이터프레임 내용 출력
     st.write(df.head(10))
 
-    # 열 이름을 적절히 설정 (여기서는 임의로 설정한 예)
+    # 열 이름을 적절히 설정 (필요한 경우)
     df.columns = ['Company', 'Title', 'Category', 'Level'] + [f'Unnamed: {i}' for i in range(len(df.columns) - 4)]
 
     # 데이터프레임 열 이름 출력
@@ -43,12 +43,12 @@ if uploaded is not None:
         # Streamlit 대시보드
         st.title('데이터 분석 대시보드')
 
-        st.subheader('회사별 건수')
+        st.subheader('Company별 건수')
         fig, ax = plt.subplots()
         ax.barh(company_counts.index, company_counts.values)
         ax.set_xlabel('건수')
-        ax.set_ylabel('회사')
-        ax.set_title('회사별 건수')
+        ax.set_ylabel('Company')
+        ax.set_title('Company별 건수')
         for i in ax.patches:
             ax.text(i.get_width() + .3, i.get_y() + .31, 
                     str(round((i.get_width()), 2)), fontsize=10, color='dimgrey')
