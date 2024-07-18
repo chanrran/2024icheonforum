@@ -50,7 +50,11 @@ with tab1:
     col1.metric("전체 프로젝트 수", len(filtered_df))
     col2.metric("참여 회사 수", filtered_df['회사'].nunique())
     col3.metric("주제 수", filtered_df['주제'].nunique())
-    col4.metric("평균 난이도", filtered_df['난이도'].mean().round(2))
+    # '난이도' 컬럼의 데이터 타입 확인 및 처리
+    if pd.api.types.is_numeric_dtype(filtered_df['난이도']):
+        col4.metric("평균 난이도", filtered_df['난이도'].mean().round(2))
+    else:
+        col4.metric("난이도 분포", ', '.join(filtered_df['난이도'].value_counts().index))
 
 with tab2:
     st.header("주제별 분석")
