@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from io import BytesIO
 from collections import Counter
 import re
 
@@ -8,7 +9,7 @@ uploaded = st.file_uploader("파일을 업로드하세요", type=["xlsx"])
 
 if uploaded is not None:
     # 엑셀 파일 로드
-    df = pd.read_excel(uploaded)
+    df = pd.read_excel(BytesIO(uploaded.read()))
 
     # 데이터프레임 열 이름 출력
     st.write("엑셀 파일의 열 이름:", df.columns.tolist())
