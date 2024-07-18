@@ -59,25 +59,34 @@ with tab1:
 with tab2:
     st.header("주제별 분석")
     topic_counts = filtered_df['주제'].value_counts()
-    fig_topic = px.pie(values=topic_counts.values, names=topic_counts.index, title='주제별 프로젝트 분포')
-    fig_topic.update_traces(textposition='inside', textinfo='percent+label')
-    st.plotly_chart(fig_topic, use_container_width=True)
+    if not topic_counts.empty:
+        fig_topic = px.pie(values=topic_counts.values, names=topic_counts.index, title='주제별 프로젝트 분포')
+        fig_topic.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_topic, use_container_width=True)
+    else:
+        st.write("주제별 분석을 위한 데이터가 충분하지 않습니다.")
 
 with tab3:
     st.header("회사별 분석")
     company_counts = filtered_df['회사'].value_counts()
-    fig_company = px.bar(x=company_counts.index, y=company_counts.values, title='회사별 프로젝트 수')
-    fig_company.update_layout(xaxis_title="회사", yaxis_title="프로젝트 수")
-    st.plotly_chart(fig_company, use_container_width=True)
+    if not company_counts.empty:
+        fig_company = px.bar(x=company_counts.index, y=company_counts.values, title='회사별 프로젝트 수')
+        fig_company.update_layout(xaxis_title="회사", yaxis_title="프로젝트 수")
+        st.plotly_chart(fig_company, use_container_width=True)
+    else:
+        st.write("회사별 분석을 위한 데이터가 충분하지 않습니다.")
 
 with tab4:
     st.header("프로젝트 제목 워드 클라우드")
-    text = ' '.join(filtered_df['주제'])
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
-    fig_wc, ax = plt.subplots()
-    ax.imshow(wordcloud, interpolation='bilinear')
-    ax.axis('off')
-    st.pyplot(fig_wc)
+    if not filtered_df.empty:
+        text = ' '.join(filtered_df['주제'])
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+        fig_wc, ax = plt.subplots()
+        ax.imshow(wordcloud, interpolation='bilinear')
+        ax.axis('off')
+        st.pyplot(fig_wc)
+    else:
+        st.write("워드 클라우드 생성을 위한 데이터가 충분하지 않습니다.")
 
 # 프로젝트 목록
 st.header("프로젝트 목록")
@@ -86,14 +95,17 @@ if st.checkbox("프로젝트 목록 표시"):
 
 # 상세 프로젝트 정보
 st.header("상세 프로젝트 정보")
-selected_project = st.selectbox("프로젝트 선택", filtered_df['주제'].tolist())
-project_info = filtered_df[filtered_df['주제'] == selected_project].iloc[0]
-st.write(f"성명: {project_info['성명']}")
-st.write(f"회사: {project_info['회사']}")
-st.write(f"주제: {project_info['주제']}")
-st.write(f"난이도: {project_info['난이도']}")
-if pd.notna(project_info['Playground']) and project_info['Playground'] != '':
-    st.markdown(f"[Playground 링크]({project_info['Playground']})")
+if not filtered_df.empty:
+    selected_project = st.selectbox("프로젝트 선택", filtered_df['주제'].tolist())
+    project_info = filtered_df[filtered_df['주제'] == selected_project].iloc[0]
+    st.write(f"성명: {project_info['성명']}")
+    st.write(f"회사: {project_info['회사']}")
+    st.write(f"주제: {project_info['주제']}")
+    st.write(f"난이도: {project_info['난이도']}")
+    if pd.notna(project_info['Playground']) and project_info['Playground'] != '':
+        st.markdown(f"[Playground 링크]({project_info['Playground']})")
+else:
+    st.write("상세 정보를 표시할 프로젝트가 없습니다.")
 
 # CSS를 사용하여 mySUNI 브랜드 색상 적용
 st.markdown(
